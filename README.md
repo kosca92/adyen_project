@@ -5,8 +5,7 @@
 * [Production Setup](#production-setup)
 
 ## General info
-Adyen Case Study: Create a service that calculates the current balance of each user once per minute, and writes the balance to the `balance` table. \
-For more detail read the attached document [here](Moss/DE_case_study.pdf).
+Adyen Case Study: Create a service  [here](Moss/DE_case_study.pdf).
 
 	
 ## Technical info
