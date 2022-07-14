@@ -31,6 +31,8 @@
     <setting file="file://$PROJECT_DIR$/docker-compose.yml" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/dags/dummy_dag.py" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/.gitignore" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/init/init.sql" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/init/Dockerfile" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="2BqLoBSB4LucatMR1Ede9JDs2j0" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />

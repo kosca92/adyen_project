@@ -5,8 +5,11 @@ services:
         build: init/.
         environment:
             - POSTGRES_PASSWORD=root
+            - POSTGRES_DB=terminal_postgres_db
         ports:
             - "5432:5432"
+    cronjob:
+        build: cronjob
     postgres1:
         container_name: airflow_postgres_db
         image: postgres
