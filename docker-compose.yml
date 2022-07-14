@@ -1,6 +1,14 @@
 version: '3.8'
 services:
-    postgres:
+    postgres2:
+        container_name: terminal_postgres_db
+        build: init/.
+        environment:
+            - POSTGRES_PASSWORD=root
+        ports:
+            - "5432:5432"
+    postgres1:
+        container_name: airflow_postgres_db
         image: postgres
         environment:
             - POSTGRES_USER=airflow
@@ -12,7 +20,7 @@ services:
         restart: on-failure
         entrypoint: ./scripts/entrypoint.sh
         depends_on:
-            - postgres
+            - postgres1
         env_file:
             - .env
         volumes:
