@@ -8,10 +8,10 @@ def connect():
     try:
         # connect to the PostgreSQL server
         conn = psycopg2.connect(
-            host="postgres2",
-            database="terminal_postgres_db" )
-            # user="root",
-            # password="root")
+            host="postgres",
+            database="terminal_postgres_db",
+            user="airflow",
+            password="airflow")
 
         # create a cursor
         cur = conn.cursor()
