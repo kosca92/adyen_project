@@ -1,7 +1,6 @@
 CREATE DATABASE airflow;
 
 CREATE DATABASE result_database;
-
 -- first table
 create table transactions
 (
