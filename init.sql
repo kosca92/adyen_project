@@ -1,7 +1,18 @@
-CREATE DATABASE airflow;
+-- creating multiple databases
+CREATE USER airflow WITH PASSWORD 'airflow';
+CREATE DATABASE airflow_db;
+GRANT ALL PRIVILEGES ON DATABASE airflow_db TO airflow;
 
-CREATE DATABASE result_database;
+CREATE USER terminal_user WITH PASSWORD 'terminal';
+CREATE DATABASE terminal_db;
+GRANT ALL PRIVILEGES ON DATABASE terminal_db TO terminal_user;
+
+CREATE USER final_user WITH PASSWORD 'final';
+CREATE DATABASE results_db;
+GRANT ALL PRIVILEGES ON DATABASE results_db TO final_user;
+
 -- first table
+\c terminal_db
 create table transactions
 (
     user_id int not null,
@@ -33,3 +44,22 @@ INSERT INTO transactions (user_id, ts, transaction_amount)
 VALUES (1, NOW(), 0);
 INSERT INTO transactions (user_id, ts, transaction_amount)
 VALUES (2, NOW(), -1);
+
+GRANT ALL
+ON transactions
+TO terminal_user;
+
+GRANT ALL
+ON balance
+TO terminal_user;
+
+\c results_db
+create table transactions
+(
+    user_id int not null,
+    ts timestamp not null,
+    transaction_amount float not null
+);
+GRANT ALL
+ON transactions
+TO final_user;

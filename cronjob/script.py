@@ -1,7 +1,6 @@
 import psycopg2
 from datetime import datetime
 
-
 def connect():
     """ Connect to the PostgreSQL database server """
     conn = None
@@ -9,9 +8,9 @@ def connect():
         # connect to the PostgreSQL server
         conn = psycopg2.connect(
             host="postgres",
-            database="terminal_postgres_db",
-            user="airflow",
-            password="airflow")
+            database="terminal_db",
+            user="terminal_user",
+            password="terminal")
 
         # create a cursor
         cur = conn.cursor()

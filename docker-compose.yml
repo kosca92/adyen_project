@@ -1,16 +1,16 @@
 version: '3.8'
 services:
     postgres:
-        container_name: postgres_db
         image: postgres
-        volumes:
-            - ./docker-postgresql-multiple-databases:/docker-entrypoint-initdb.d
+        restart: always
         environment:
-            - POSTGRES_MULTIPLE_DATABASES=airflow,terminal,results
-            - POSTGRES_USER=postgres
-            - POSTGRES_PASSWORD=airflow
+            - POSTGRES_USER=root
+            - POSTGRES_PASSWORD=root
+            - POSTGRES_DB=root
         ports:
             - "5432:5432"
+        volumes:
+            - ./init.sql:/docker-entrypoint-initdb.d/init.sql
     cronjob:
         build: cronjob
         depends_on:
