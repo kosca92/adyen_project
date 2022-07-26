@@ -1,0 +1,36 @@
+[2022-07-25 12:27:42,981] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: tutorial.get_terminal_data scheduled__2022-07-12T00:00:00+00:00 [queued]>
+[2022-07-25 12:27:43,060] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: tutorial.get_terminal_data scheduled__2022-07-12T00:00:00+00:00 [queued]>
+[2022-07-25 12:27:43,062] {taskinstance.py:1376} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-25 12:27:43,065] {taskinstance.py:1377} INFO - Starting attempt 1 of 2
+[2022-07-25 12:27:43,067] {taskinstance.py:1378} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-25 12:27:43,200] {taskinstance.py:1397} INFO - Executing <Task(PythonOperator): get_terminal_data> on 2022-07-12 00:00:00+00:00
+[2022-07-25 12:27:43,266] {standard_task_runner.py:52} INFO - Started process 941 to run task
+[2022-07-25 12:27:43,306] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'tutorial', 'get_terminal_data', 'scheduled__2022-07-12T00:00:00+00:00', '--job-id', '135', '--raw', '--subdir', 'DAGS_FOLDER/final_dag.py', '--cfg-path', '/tmp/tmpme5mxf9d', '--error-file', '/tmp/tmp6b3oasb7']
+[2022-07-25 12:27:43,319] {standard_task_runner.py:80} INFO - Job 135: Subtask get_terminal_data
+[2022-07-25 12:27:43,437] {logging_mixin.py:115} WARNING - /home/***/.local/lib/python3.7/site-packages/***/configuration.py:528 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2022-07-25 12:27:43,684] {task_command.py:371} INFO - Running <TaskInstance: tutorial.get_terminal_data scheduled__2022-07-12T00:00:00+00:00 [running]> on host 929e6a3728d4
+[2022-07-25 12:27:44,115] {taskinstance.py:1591} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=caroline.kosalka@gmail.com
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=tutorial
+AIRFLOW_CTX_TASK_ID=get_terminal_data
+AIRFLOW_CTX_EXECUTION_DATE=2022-07-12T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-07-12T00:00:00+00:00
+[2022-07-25 12:27:44,118] {taskinstance.py:1909} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 171, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 189, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/final_dag.py", line 10, in read_data
+    pg_hook = PostgresHook(
+NameError: name 'PostgresHook' is not defined
+[2022-07-25 12:27:44,157] {taskinstance.py:1420} INFO - Marking task as UP_FOR_RETRY. dag_id=tutorial, task_id=get_terminal_data, execution_date=20220712T000000, start_date=20220725T122742, end_date=20220725T122744
+[2022-07-25 12:27:44,218] {standard_task_runner.py:97} ERROR - Failed to execute job 135 for task get_terminal_data (name 'PostgresHook' is not defined; 941)
+[2022-07-25 12:27:44,331] {local_task_job.py:156} INFO - Task exited with return code 1
+[2022-07-25 12:27:44,482] {dagrun.py:1081} ERROR - Failed to get task '<TaskInstance: tutorial.t2 scheduled__2022-07-12T00:00:00+00:00 [removed]>' for dag 'tutorial'. Marking it as removed.
+[2022-07-25 12:27:44,505] {dagrun.py:1081} ERROR - Failed to get task '<TaskInstance: tutorial.t1 scheduled__2022-07-12T00:00:00+00:00 [removed]>' for dag 'tutorial'. Marking it as removed.
+[2022-07-25 12:27:44,568] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

@@ -1,5 +1,10 @@
 version: '3.8'
 services:
+    notebook:
+        build:
+            context: ./jupyter-notebook-docker
+        ports:
+            - "8888:8888"
     postgres:
         image: postgres
         restart: always

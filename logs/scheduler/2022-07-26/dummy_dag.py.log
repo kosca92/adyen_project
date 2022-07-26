@@ -1,0 +1,1199 @@
+[2022-07-26 01:07:28,681] {processor.py:153} INFO - Started process (PID=591) to work on /opt/airflow/dags/dummy_dag.py
+[2022-07-26 01:07:28,682] {processor.py:641} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2022-07-26 01:07:28,685] {logging_mixin.py:115} INFO - [2022-07-26 01:07:28,685] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 01:07:28,755] {logging_mixin.py:115} INFO - [2022-07-26 01:07:28,755] {base.py:68} INFO - Using connection ID 'postgres_terminal' for task execution.
+[2022-07-26 01:07:28,781] {logging_mixin.py:115} INFO - [2022-07-26 01:07:28,781] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 01:07:28,809] {logging_mixin.py:115} INFO - [2022-07-26 01:07:28,808] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 01:07:28,826] {logging_mixin.py:115} INFO - [2022-07-26 01:07:28,826] {dbapi.py:330} INFO - Done loading. Loaded a total of 3 rows
+[2022-07-26 01:07:28,827] {processor.py:651} INFO - DAG(s) dict_keys(['postgres_job']) retrieved from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 01:07:28,857] {logging_mixin.py:115} INFO - [2022-07-26 01:07:28,856] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-26 01:07:28,906] {logging_mixin.py:115} INFO - [2022-07-26 01:07:28,906] {dag.py:2972} INFO - Setting next_dagrun for postgres_job to 2022-05-01T09:34:00+00:00, run_after=2022-05-01T09:35:00+00:00
+[2022-07-26 01:07:28,934] {processor.py:161} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.259 seconds
+[2022-07-26 03:24:55,609] {processor.py:153} INFO - Started process (PID=620) to work on /opt/airflow/dags/dummy_dag.py
+[2022-07-26 03:24:55,611] {processor.py:641} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2022-07-26 03:24:55,613] {logging_mixin.py:115} INFO - [2022-07-26 03:24:55,613] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 03:24:55,693] {logging_mixin.py:115} INFO - [2022-07-26 03:24:55,693] {base.py:68} INFO - Using connection ID 'postgres_terminal' for task execution.
+[2022-07-26 03:24:55,734] {logging_mixin.py:115} INFO - [2022-07-26 03:24:55,733] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 03:24:55,755] {logging_mixin.py:115} INFO - [2022-07-26 03:24:55,754] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 03:24:55,773] {logging_mixin.py:115} INFO - [2022-07-26 03:24:55,773] {dbapi.py:330} INFO - Done loading. Loaded a total of 3 rows
+[2022-07-26 03:24:55,774] {processor.py:651} INFO - DAG(s) dict_keys(['postgres_job']) retrieved from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 03:24:55,892] {logging_mixin.py:115} INFO - [2022-07-26 03:24:55,892] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-26 03:24:55,955] {logging_mixin.py:115} INFO - [2022-07-26 03:24:55,955] {dag.py:2972} INFO - Setting next_dagrun for postgres_job to 2022-05-01T09:34:00+00:00, run_after=2022-05-01T09:35:00+00:00
+[2022-07-26 03:24:55,996] {processor.py:161} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.391 seconds
+[2022-07-26 07:37:01,781] {processor.py:153} INFO - Started process (PID=647) to work on /opt/airflow/dags/dummy_dag.py
+[2022-07-26 07:37:01,783] {processor.py:641} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2022-07-26 07:37:01,785] {logging_mixin.py:115} INFO - [2022-07-26 07:37:01,785] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 07:37:01,931] {logging_mixin.py:115} INFO - [2022-07-26 07:37:01,930] {base.py:68} INFO - Using connection ID 'postgres_terminal' for task execution.
+[2022-07-26 07:37:02,048] {logging_mixin.py:115} INFO - [2022-07-26 07:37:02,048] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 07:37:02,090] {logging_mixin.py:115} INFO - [2022-07-26 07:37:02,090] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 07:37:02,162] {logging_mixin.py:115} INFO - [2022-07-26 07:37:02,162] {dbapi.py:330} INFO - Done loading. Loaded a total of 3 rows
+[2022-07-26 07:37:02,169] {processor.py:651} INFO - DAG(s) dict_keys(['postgres_job']) retrieved from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 07:37:02,314] {logging_mixin.py:115} INFO - [2022-07-26 07:37:02,314] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-26 07:37:02,522] {logging_mixin.py:115} INFO - [2022-07-26 07:37:02,521] {dag.py:2972} INFO - Setting next_dagrun for postgres_job to 2022-05-01T09:34:00+00:00, run_after=2022-05-01T09:35:00+00:00
+[2022-07-26 07:37:02,588] {processor.py:161} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.815 seconds
+[2022-07-26 08:44:43,516] {processor.py:153} INFO - Started process (PID=664) to work on /opt/airflow/dags/dummy_dag.py
+[2022-07-26 08:44:43,519] {processor.py:641} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2022-07-26 08:44:43,520] {logging_mixin.py:115} INFO - [2022-07-26 08:44:43,520] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 08:44:43,601] {logging_mixin.py:115} INFO - [2022-07-26 08:44:43,601] {base.py:68} INFO - Using connection ID 'postgres_terminal' for task execution.
+[2022-07-26 08:44:43,626] {logging_mixin.py:115} INFO - [2022-07-26 08:44:43,625] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 08:44:43,653] {logging_mixin.py:115} INFO - [2022-07-26 08:44:43,652] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 08:44:43,673] {logging_mixin.py:115} INFO - [2022-07-26 08:44:43,673] {dbapi.py:330} INFO - Done loading. Loaded a total of 3 rows
+[2022-07-26 08:44:43,675] {processor.py:651} INFO - DAG(s) dict_keys(['postgres_job']) retrieved from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 08:44:43,724] {logging_mixin.py:115} INFO - [2022-07-26 08:44:43,724] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-26 08:44:43,764] {logging_mixin.py:115} INFO - [2022-07-26 08:44:43,764] {dag.py:2972} INFO - Setting next_dagrun for postgres_job to 2022-05-01T09:34:00+00:00, run_after=2022-05-01T09:35:00+00:00
+[2022-07-26 08:44:43,789] {processor.py:161} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.279 seconds
+[2022-07-26 08:45:13,982] {processor.py:153} INFO - Started process (PID=679) to work on /opt/airflow/dags/dummy_dag.py
+[2022-07-26 08:45:13,986] {processor.py:641} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2022-07-26 08:45:13,989] {logging_mixin.py:115} INFO - [2022-07-26 08:45:13,989] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 08:45:14,031] {logging_mixin.py:115} INFO - [2022-07-26 08:45:14,030] {base.py:68} INFO - Using connection ID 'postgres_terminal' for task execution.
+[2022-07-26 08:45:14,048] {logging_mixin.py:115} INFO - [2022-07-26 08:45:14,048] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 08:45:14,064] {logging_mixin.py:115} INFO - [2022-07-26 08:45:14,064] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 08:45:14,079] {logging_mixin.py:115} INFO - [2022-07-26 08:45:14,078] {dbapi.py:330} INFO - Done loading. Loaded a total of 3 rows
+[2022-07-26 08:45:14,081] {processor.py:651} INFO - DAG(s) dict_keys(['postgres_job']) retrieved from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 08:45:14,108] {logging_mixin.py:115} INFO - [2022-07-26 08:45:14,108] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-26 08:45:14,136] {logging_mixin.py:115} INFO - [2022-07-26 08:45:14,136] {dag.py:2972} INFO - Setting next_dagrun for postgres_job to 2022-05-01T09:34:00+00:00, run_after=2022-05-01T09:35:00+00:00
+[2022-07-26 08:45:14,150] {processor.py:161} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.174 seconds
+[2022-07-26 08:45:44,396] {processor.py:153} INFO - Started process (PID=695) to work on /opt/airflow/dags/dummy_dag.py
+[2022-07-26 08:45:44,398] {processor.py:641} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2022-07-26 08:45:44,401] {logging_mixin.py:115} INFO - [2022-07-26 08:45:44,400] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 08:45:44,457] {logging_mixin.py:115} INFO - [2022-07-26 08:45:44,457] {base.py:68} INFO - Using connection ID 'postgres_terminal' for task execution.
+[2022-07-26 08:45:44,474] {logging_mixin.py:115} INFO - [2022-07-26 08:45:44,474] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 08:45:44,496] {logging_mixin.py:115} INFO - [2022-07-26 08:45:44,496] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 08:45:44,515] {logging_mixin.py:115} INFO - [2022-07-26 08:45:44,515] {dbapi.py:330} INFO - Done loading. Loaded a total of 3 rows
+[2022-07-26 08:45:44,517] {processor.py:651} INFO - DAG(s) dict_keys(['postgres_job']) retrieved from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 08:45:44,544] {logging_mixin.py:115} INFO - [2022-07-26 08:45:44,544] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-26 08:45:44,574] {logging_mixin.py:115} INFO - [2022-07-26 08:45:44,574] {dag.py:2972} INFO - Setting next_dagrun for postgres_job to 2022-05-01T09:34:00+00:00, run_after=2022-05-01T09:35:00+00:00
+[2022-07-26 08:45:44,587] {processor.py:161} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.196 seconds
+[2022-07-26 08:46:14,811] {processor.py:153} INFO - Started process (PID=710) to work on /opt/airflow/dags/dummy_dag.py
+[2022-07-26 08:46:14,814] {processor.py:641} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2022-07-26 08:46:14,818] {logging_mixin.py:115} INFO - [2022-07-26 08:46:14,816] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 08:46:14,889] {logging_mixin.py:115} INFO - [2022-07-26 08:46:14,888] {base.py:68} INFO - Using connection ID 'postgres_terminal' for task execution.
+[2022-07-26 08:46:14,906] {logging_mixin.py:115} INFO - [2022-07-26 08:46:14,906] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 08:46:14,930] {logging_mixin.py:115} INFO - [2022-07-26 08:46:14,930] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 08:46:14,947] {logging_mixin.py:115} INFO - [2022-07-26 08:46:14,946] {dbapi.py:330} INFO - Done loading. Loaded a total of 3 rows
+[2022-07-26 08:46:14,948] {processor.py:651} INFO - DAG(s) dict_keys(['postgres_job']) retrieved from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 08:46:14,988] {logging_mixin.py:115} INFO - [2022-07-26 08:46:14,988] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-26 08:46:15,017] {logging_mixin.py:115} INFO - [2022-07-26 08:46:15,017] {dag.py:2972} INFO - Setting next_dagrun for postgres_job to 2022-05-01T09:34:00+00:00, run_after=2022-05-01T09:35:00+00:00
+[2022-07-26 08:46:15,029] {processor.py:161} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.233 seconds
+[2022-07-26 08:46:45,199] {processor.py:153} INFO - Started process (PID=727) to work on /opt/airflow/dags/dummy_dag.py
+[2022-07-26 08:46:45,201] {processor.py:641} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2022-07-26 08:46:45,204] {logging_mixin.py:115} INFO - [2022-07-26 08:46:45,203] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 08:46:45,267] {logging_mixin.py:115} INFO - [2022-07-26 08:46:45,266] {base.py:68} INFO - Using connection ID 'postgres_terminal' for task execution.
+[2022-07-26 08:46:45,285] {logging_mixin.py:115} INFO - [2022-07-26 08:46:45,285] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 08:46:45,306] {logging_mixin.py:115} INFO - [2022-07-26 08:46:45,306] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 08:46:45,327] {logging_mixin.py:115} INFO - [2022-07-26 08:46:45,326] {dbapi.py:330} INFO - Done loading. Loaded a total of 3 rows
+[2022-07-26 08:46:45,328] {processor.py:651} INFO - DAG(s) dict_keys(['postgres_job']) retrieved from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 08:46:45,359] {logging_mixin.py:115} INFO - [2022-07-26 08:46:45,359] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-26 08:46:45,389] {logging_mixin.py:115} INFO - [2022-07-26 08:46:45,389] {dag.py:2972} INFO - Setting next_dagrun for postgres_job to 2022-05-01T09:34:00+00:00, run_after=2022-05-01T09:35:00+00:00
+[2022-07-26 08:46:45,408] {processor.py:161} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.215 seconds
+[2022-07-26 08:47:15,568] {processor.py:153} INFO - Started process (PID=743) to work on /opt/airflow/dags/dummy_dag.py
+[2022-07-26 08:47:15,570] {processor.py:641} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2022-07-26 08:47:15,572] {logging_mixin.py:115} INFO - [2022-07-26 08:47:15,572] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 08:47:15,619] {logging_mixin.py:115} INFO - [2022-07-26 08:47:15,618] {base.py:68} INFO - Using connection ID 'postgres_terminal' for task execution.
+[2022-07-26 08:47:15,639] {logging_mixin.py:115} INFO - [2022-07-26 08:47:15,639] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 08:47:15,658] {logging_mixin.py:115} INFO - [2022-07-26 08:47:15,657] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 08:47:15,677] {logging_mixin.py:115} INFO - [2022-07-26 08:47:15,677] {dbapi.py:330} INFO - Done loading. Loaded a total of 3 rows
+[2022-07-26 08:47:15,679] {processor.py:651} INFO - DAG(s) dict_keys(['postgres_job']) retrieved from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 08:47:15,704] {logging_mixin.py:115} INFO - [2022-07-26 08:47:15,704] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-26 08:47:15,729] {logging_mixin.py:115} INFO - [2022-07-26 08:47:15,728] {dag.py:2972} INFO - Setting next_dagrun for postgres_job to 2022-05-01T09:34:00+00:00, run_after=2022-05-01T09:35:00+00:00
+[2022-07-26 08:47:15,742] {processor.py:161} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.182 seconds
+[2022-07-26 08:47:45,906] {processor.py:153} INFO - Started process (PID=758) to work on /opt/airflow/dags/dummy_dag.py
+[2022-07-26 08:47:45,907] {processor.py:641} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2022-07-26 08:47:45,908] {logging_mixin.py:115} INFO - [2022-07-26 08:47:45,908] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 08:47:45,949] {logging_mixin.py:115} INFO - [2022-07-26 08:47:45,949] {base.py:68} INFO - Using connection ID 'postgres_terminal' for task execution.
+[2022-07-26 08:47:45,963] {logging_mixin.py:115} INFO - [2022-07-26 08:47:45,962] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 08:47:45,979] {logging_mixin.py:115} INFO - [2022-07-26 08:47:45,979] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 08:47:45,994] {logging_mixin.py:115} INFO - [2022-07-26 08:47:45,994] {dbapi.py:330} INFO - Done loading. Loaded a total of 3 rows
+[2022-07-26 08:47:45,995] {processor.py:651} INFO - DAG(s) dict_keys(['postgres_job']) retrieved from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 08:47:46,022] {logging_mixin.py:115} INFO - [2022-07-26 08:47:46,021] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-26 08:47:46,058] {logging_mixin.py:115} INFO - [2022-07-26 08:47:46,058] {dag.py:2972} INFO - Setting next_dagrun for postgres_job to 2022-05-01T09:34:00+00:00, run_after=2022-05-01T09:35:00+00:00
+[2022-07-26 08:47:46,075] {processor.py:161} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.176 seconds
+[2022-07-26 08:48:16,250] {processor.py:153} INFO - Started process (PID=775) to work on /opt/airflow/dags/dummy_dag.py
+[2022-07-26 08:48:16,251] {processor.py:641} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2022-07-26 08:48:16,253] {logging_mixin.py:115} INFO - [2022-07-26 08:48:16,252] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 08:48:16,291] {logging_mixin.py:115} INFO - [2022-07-26 08:48:16,291] {base.py:68} INFO - Using connection ID 'postgres_terminal' for task execution.
+[2022-07-26 08:48:16,307] {logging_mixin.py:115} INFO - [2022-07-26 08:48:16,307] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 08:48:16,321] {logging_mixin.py:115} INFO - [2022-07-26 08:48:16,321] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 08:48:16,337] {logging_mixin.py:115} INFO - [2022-07-26 08:48:16,337] {dbapi.py:330} INFO - Done loading. Loaded a total of 3 rows
+[2022-07-26 08:48:16,339] {processor.py:651} INFO - DAG(s) dict_keys(['postgres_job']) retrieved from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 08:48:16,361] {logging_mixin.py:115} INFO - [2022-07-26 08:48:16,361] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-26 08:48:16,393] {logging_mixin.py:115} INFO - [2022-07-26 08:48:16,393] {dag.py:2972} INFO - Setting next_dagrun for postgres_job to 2022-05-01T09:34:00+00:00, run_after=2022-05-01T09:35:00+00:00
+[2022-07-26 08:48:16,406] {processor.py:161} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.165 seconds
+[2022-07-26 08:48:46,589] {processor.py:153} INFO - Started process (PID=791) to work on /opt/airflow/dags/dummy_dag.py
+[2022-07-26 08:48:46,592] {processor.py:641} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2022-07-26 08:48:46,597] {logging_mixin.py:115} INFO - [2022-07-26 08:48:46,595] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 08:48:46,654] {logging_mixin.py:115} INFO - [2022-07-26 08:48:46,654] {base.py:68} INFO - Using connection ID 'postgres_terminal' for task execution.
+[2022-07-26 08:48:46,670] {logging_mixin.py:115} INFO - [2022-07-26 08:48:46,670] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 08:48:46,689] {logging_mixin.py:115} INFO - [2022-07-26 08:48:46,689] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 08:48:46,710] {logging_mixin.py:115} INFO - [2022-07-26 08:48:46,710] {dbapi.py:330} INFO - Done loading. Loaded a total of 3 rows
+[2022-07-26 08:48:46,712] {processor.py:651} INFO - DAG(s) dict_keys(['postgres_job']) retrieved from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 08:48:46,733] {logging_mixin.py:115} INFO - [2022-07-26 08:48:46,732] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-26 08:48:46,755] {logging_mixin.py:115} INFO - [2022-07-26 08:48:46,755] {dag.py:2972} INFO - Setting next_dagrun for postgres_job to 2022-05-01T09:34:00+00:00, run_after=2022-05-01T09:35:00+00:00
+[2022-07-26 08:48:46,769] {processor.py:161} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.185 seconds
+[2022-07-26 08:49:16,971] {processor.py:153} INFO - Started process (PID=807) to work on /opt/airflow/dags/dummy_dag.py
+[2022-07-26 08:49:16,975] {processor.py:641} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2022-07-26 08:49:16,977] {logging_mixin.py:115} INFO - [2022-07-26 08:49:16,977] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 08:49:17,022] {logging_mixin.py:115} INFO - [2022-07-26 08:49:17,022] {base.py:68} INFO - Using connection ID 'postgres_terminal' for task execution.
+[2022-07-26 08:49:17,041] {logging_mixin.py:115} INFO - [2022-07-26 08:49:17,041] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 08:49:17,058] {logging_mixin.py:115} INFO - [2022-07-26 08:49:17,058] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 08:49:17,071] {logging_mixin.py:115} INFO - [2022-07-26 08:49:17,070] {dbapi.py:330} INFO - Done loading. Loaded a total of 3 rows
+[2022-07-26 08:49:17,072] {processor.py:651} INFO - DAG(s) dict_keys(['postgres_job']) retrieved from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 08:49:17,091] {logging_mixin.py:115} INFO - [2022-07-26 08:49:17,091] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-26 08:49:17,113] {logging_mixin.py:115} INFO - [2022-07-26 08:49:17,113] {dag.py:2972} INFO - Setting next_dagrun for postgres_job to 2022-05-01T09:34:00+00:00, run_after=2022-05-01T09:35:00+00:00
+[2022-07-26 08:49:17,127] {processor.py:161} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.162 seconds
+[2022-07-26 08:49:47,885] {processor.py:153} INFO - Started process (PID=823) to work on /opt/airflow/dags/dummy_dag.py
+[2022-07-26 08:49:47,887] {processor.py:641} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2022-07-26 08:49:47,889] {logging_mixin.py:115} INFO - [2022-07-26 08:49:47,889] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 08:49:47,943] {logging_mixin.py:115} INFO - [2022-07-26 08:49:47,943] {base.py:68} INFO - Using connection ID 'postgres_terminal' for task execution.
+[2022-07-26 09:01:21,188] {logging_mixin.py:115} INFO - [2022-07-26 09:01:21,187] {timeout.py:67} ERROR - Process timed out, PID: 823
+[2022-07-26 09:01:21,550] {logging_mixin.py:115} INFO - [2022-07-26 09:01:21,231] {connection.py:427} ERROR - Unable to retrieve connection from secrets backend (MetastoreBackend). Checking subsequent secrets backend.
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/connection.py", line 420, in get_connection_from_secrets
+    conn = secrets_backend.get_connection(conn_id=conn_id)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/session.py", line 71, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/secrets/metastore.py", line 36, in get_connection
+    conn = session.query(Connection).filter(Connection.conn_id == conn_id).first()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/orm/query.py", line 2810, in first
+    return self.limit(1)._iter().first()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/orm/query.py", line 2897, in _iter
+    execution_options={"_sa_orm_load_options": self.load_options},
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/orm/session.py", line 1689, in execute
+    result = conn._execute_20(statement, params or {}, execution_options)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1614, in _execute_20
+    return meth(self, args_10style, kwargs_10style, execution_options)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/sql/elements.py", line 326, in _execute_on_connection
+    self, multiparams, params, execution_options
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1491, in _execute_clauseelement
+    cache_hit=cache_hit,
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1846, in _execute_context
+    e, statement, parameters, cursor, context
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 2030, in _handle_dbapi_exception
+    util.raise_(exc_info[1], with_traceback=exc_info[2])
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/util/compat.py", line 207, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1803, in _execute_context
+    cursor, statement, parameters, context
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 719, in do_execute
+    cursor.execute(statement, parameters)
+  File "/usr/local/lib/python3.7/encodings/utf_8.py", line 15, in decode
+    def decode(input, errors='strict'):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/timeout.py", line 68, in handle_timeout
+    raise AirflowTaskTimeout(self.error_message)
+airflow.exceptions.AirflowTaskTimeout: DagBag import timeout for /opt/airflow/dags/dummy_dag.py after 30.0s.
+Please take a look at these docs to improve your DAG import time:
+* https://airflow.apache.org/docs/apache-airflow/2.3.3/best-practices.html#top-level-python-code
+* https://airflow.apache.org/docs/apache-airflow/2.3.3/best-practices.html#reducing-dag-complexity, PID: 823
+[2022-07-26 09:01:21,593] {logging_mixin.py:115} INFO - [2022-07-26 09:01:21,583] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/dummy_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dummy_dag.py", line 17, in <module>
+    dest_conn = dest.get_conn()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/postgres/hooks/postgres.py", line 86, in get_conn
+    conn = deepcopy(self.connection or self.get_connection(conn_id))
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/hooks/base.py", line 67, in get_connection
+    conn = Connection.get_connection_from_secrets(conn_id)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/connection.py", line 430, in get_connection_from_secrets
+    raise AirflowNotFoundException(f"The conn_id `{conn_id}` isn't defined")
+airflow.exceptions.AirflowNotFoundException: The conn_id `postgres_results` isn't defined
+[2022-07-26 09:01:21,595] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 09:01:22,138] {processor.py:153} INFO - Started process (PID=835) to work on /opt/airflow/dags/dummy_dag.py
+[2022-07-26 09:01:22,139] {processor.py:641} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2022-07-26 09:01:22,142] {logging_mixin.py:115} INFO - [2022-07-26 09:01:22,142] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 09:01:22,193] {logging_mixin.py:115} INFO - [2022-07-26 09:01:22,193] {base.py:68} INFO - Using connection ID 'postgres_terminal' for task execution.
+[2022-07-26 09:01:22,208] {logging_mixin.py:115} INFO - [2022-07-26 09:01:22,208] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 09:01:22,224] {logging_mixin.py:115} INFO - [2022-07-26 09:01:22,224] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 09:01:22,241] {logging_mixin.py:115} INFO - [2022-07-26 09:01:22,241] {dbapi.py:330} INFO - Done loading. Loaded a total of 3 rows
+[2022-07-26 09:01:22,243] {processor.py:651} INFO - DAG(s) dict_keys(['postgres_job']) retrieved from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 09:01:22,268] {logging_mixin.py:115} INFO - [2022-07-26 09:01:22,268] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-26 09:01:22,311] {logging_mixin.py:115} INFO - [2022-07-26 09:01:22,311] {dag.py:2972} INFO - Setting next_dagrun for postgres_job to 2022-05-01T09:34:00+00:00, run_after=2022-05-01T09:35:00+00:00
+[2022-07-26 09:01:22,330] {processor.py:161} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.200 seconds
+[2022-07-26 09:01:52,981] {processor.py:153} INFO - Started process (PID=852) to work on /opt/airflow/dags/dummy_dag.py
+[2022-07-26 09:01:52,983] {processor.py:641} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2022-07-26 09:01:52,985] {logging_mixin.py:115} INFO - [2022-07-26 09:01:52,984] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 09:01:53,023] {logging_mixin.py:115} INFO - [2022-07-26 09:01:53,023] {base.py:68} INFO - Using connection ID 'postgres_terminal' for task execution.
+[2022-07-26 09:01:53,038] {logging_mixin.py:115} INFO - [2022-07-26 09:01:53,038] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 09:01:53,055] {logging_mixin.py:115} INFO - [2022-07-26 09:01:53,055] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 09:01:53,068] {logging_mixin.py:115} INFO - [2022-07-26 09:01:53,068] {dbapi.py:330} INFO - Done loading. Loaded a total of 3 rows
+[2022-07-26 09:01:53,069] {processor.py:651} INFO - DAG(s) dict_keys(['postgres_job']) retrieved from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 09:01:53,089] {logging_mixin.py:115} INFO - [2022-07-26 09:01:53,089] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-26 09:01:53,114] {logging_mixin.py:115} INFO - [2022-07-26 09:01:53,114] {dag.py:2972} INFO - Setting next_dagrun for postgres_job to 2022-05-01T09:34:00+00:00, run_after=2022-05-01T09:35:00+00:00
+[2022-07-26 09:01:53,133] {processor.py:161} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.156 seconds
+[2022-07-26 09:02:23,506] {processor.py:153} INFO - Started process (PID=868) to work on /opt/airflow/dags/dummy_dag.py
+[2022-07-26 09:02:23,508] {processor.py:641} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2022-07-26 09:02:23,510] {logging_mixin.py:115} INFO - [2022-07-26 09:02:23,509] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 09:02:23,562] {logging_mixin.py:115} INFO - [2022-07-26 09:02:23,562] {base.py:68} INFO - Using connection ID 'postgres_terminal' for task execution.
+[2022-07-26 09:02:23,581] {logging_mixin.py:115} INFO - [2022-07-26 09:02:23,581] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 09:02:23,595] {logging_mixin.py:115} INFO - [2022-07-26 09:02:23,595] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 09:02:23,607] {logging_mixin.py:115} INFO - [2022-07-26 09:02:23,607] {dbapi.py:330} INFO - Done loading. Loaded a total of 3 rows
+[2022-07-26 09:02:23,608] {processor.py:651} INFO - DAG(s) dict_keys(['postgres_job']) retrieved from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 09:02:23,626] {logging_mixin.py:115} INFO - [2022-07-26 09:02:23,626] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-26 09:02:23,656] {logging_mixin.py:115} INFO - [2022-07-26 09:02:23,656] {dag.py:2972} INFO - Setting next_dagrun for postgres_job to 2022-05-01T09:34:00+00:00, run_after=2022-05-01T09:35:00+00:00
+[2022-07-26 09:02:23,680] {processor.py:161} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.179 seconds
+[2022-07-26 09:02:54,030] {processor.py:153} INFO - Started process (PID=884) to work on /opt/airflow/dags/dummy_dag.py
+[2022-07-26 09:02:54,033] {processor.py:641} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2022-07-26 09:02:54,036] {logging_mixin.py:115} INFO - [2022-07-26 09:02:54,036] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 09:02:54,081] {logging_mixin.py:115} INFO - [2022-07-26 09:02:54,081] {base.py:68} INFO - Using connection ID 'postgres_terminal' for task execution.
+[2022-07-26 09:02:54,097] {logging_mixin.py:115} INFO - [2022-07-26 09:02:54,097] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 09:02:54,110] {logging_mixin.py:115} INFO - [2022-07-26 09:02:54,110] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 09:02:54,124] {logging_mixin.py:115} INFO - [2022-07-26 09:02:54,123] {dbapi.py:330} INFO - Done loading. Loaded a total of 3 rows
+[2022-07-26 09:02:54,125] {processor.py:651} INFO - DAG(s) dict_keys(['postgres_job']) retrieved from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 09:02:54,144] {logging_mixin.py:115} INFO - [2022-07-26 09:02:54,144] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-26 09:02:54,170] {logging_mixin.py:115} INFO - [2022-07-26 09:02:54,169] {dag.py:2972} INFO - Setting next_dagrun for postgres_job to 2022-05-01T09:34:00+00:00, run_after=2022-05-01T09:35:00+00:00
+[2022-07-26 09:02:54,187] {processor.py:161} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.162 seconds
+[2022-07-26 09:03:24,349] {processor.py:153} INFO - Started process (PID=894) to work on /opt/airflow/dags/dummy_dag.py
+[2022-07-26 09:03:24,351] {processor.py:641} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2022-07-26 09:03:24,352] {logging_mixin.py:115} INFO - [2022-07-26 09:03:24,352] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 09:03:24,392] {logging_mixin.py:115} INFO - [2022-07-26 09:03:24,392] {base.py:68} INFO - Using connection ID 'postgres_terminal' for task execution.
+[2022-07-26 09:03:24,409] {logging_mixin.py:115} INFO - [2022-07-26 09:03:24,409] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 09:03:24,435] {logging_mixin.py:115} INFO - [2022-07-26 09:03:24,435] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 09:03:24,451] {logging_mixin.py:115} INFO - [2022-07-26 09:03:24,451] {dbapi.py:330} INFO - Done loading. Loaded a total of 3 rows
+[2022-07-26 09:03:24,454] {processor.py:651} INFO - DAG(s) dict_keys(['postgres_job']) retrieved from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 09:03:24,477] {logging_mixin.py:115} INFO - [2022-07-26 09:03:24,477] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-26 09:03:24,506] {logging_mixin.py:115} INFO - [2022-07-26 09:03:24,505] {dag.py:2972} INFO - Setting next_dagrun for postgres_job to 2022-05-01T09:34:00+00:00, run_after=2022-05-01T09:35:00+00:00
+[2022-07-26 09:03:24,520] {processor.py:161} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.175 seconds
+[2022-07-26 09:03:54,682] {processor.py:153} INFO - Started process (PID=910) to work on /opt/airflow/dags/dummy_dag.py
+[2022-07-26 09:03:54,684] {processor.py:641} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2022-07-26 09:03:54,685] {logging_mixin.py:115} INFO - [2022-07-26 09:03:54,685] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 09:03:54,725] {logging_mixin.py:115} INFO - [2022-07-26 09:03:54,724] {base.py:68} INFO - Using connection ID 'postgres_terminal' for task execution.
+[2022-07-26 09:03:54,739] {logging_mixin.py:115} INFO - [2022-07-26 09:03:54,739] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 09:03:54,753] {logging_mixin.py:115} INFO - [2022-07-26 09:03:54,753] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 09:03:54,774] {logging_mixin.py:115} INFO - [2022-07-26 09:03:54,774] {dbapi.py:330} INFO - Done loading. Loaded a total of 3 rows
+[2022-07-26 09:03:54,775] {processor.py:651} INFO - DAG(s) dict_keys(['postgres_job']) retrieved from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 09:03:54,802] {logging_mixin.py:115} INFO - [2022-07-26 09:03:54,802] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-26 09:03:54,832] {logging_mixin.py:115} INFO - [2022-07-26 09:03:54,831] {dag.py:2972} INFO - Setting next_dagrun for postgres_job to 2022-05-01T09:34:00+00:00, run_after=2022-05-01T09:35:00+00:00
+[2022-07-26 09:03:54,845] {processor.py:161} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.169 seconds
+[2022-07-26 09:04:25,014] {processor.py:153} INFO - Started process (PID=926) to work on /opt/airflow/dags/dummy_dag.py
+[2022-07-26 09:04:25,015] {processor.py:641} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2022-07-26 09:04:25,017] {logging_mixin.py:115} INFO - [2022-07-26 09:04:25,017] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 09:04:25,055] {logging_mixin.py:115} INFO - [2022-07-26 09:04:25,055] {base.py:68} INFO - Using connection ID 'postgres_terminal' for task execution.
+[2022-07-26 09:04:25,067] {logging_mixin.py:115} INFO - [2022-07-26 09:04:25,067] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 09:04:25,081] {logging_mixin.py:115} INFO - [2022-07-26 09:04:25,081] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 09:04:25,094] {logging_mixin.py:115} INFO - [2022-07-26 09:04:25,094] {dbapi.py:330} INFO - Done loading. Loaded a total of 3 rows
+[2022-07-26 09:04:25,095] {processor.py:651} INFO - DAG(s) dict_keys(['postgres_job']) retrieved from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 09:04:25,114] {logging_mixin.py:115} INFO - [2022-07-26 09:04:25,114] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-26 09:04:25,137] {logging_mixin.py:115} INFO - [2022-07-26 09:04:25,137] {dag.py:2972} INFO - Setting next_dagrun for postgres_job to 2022-05-01T09:34:00+00:00, run_after=2022-05-01T09:35:00+00:00
+[2022-07-26 09:04:25,150] {processor.py:161} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.143 seconds
+[2022-07-26 09:04:55,301] {processor.py:153} INFO - Started process (PID=942) to work on /opt/airflow/dags/dummy_dag.py
+[2022-07-26 09:04:55,302] {processor.py:641} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2022-07-26 09:04:55,303] {logging_mixin.py:115} INFO - [2022-07-26 09:04:55,303] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 09:04:55,342] {logging_mixin.py:115} INFO - [2022-07-26 09:04:55,342] {base.py:68} INFO - Using connection ID 'postgres_terminal' for task execution.
+[2022-07-26 09:04:55,355] {logging_mixin.py:115} INFO - [2022-07-26 09:04:55,355] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 09:04:55,369] {logging_mixin.py:115} INFO - [2022-07-26 09:04:55,369] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 09:04:55,381] {logging_mixin.py:115} INFO - [2022-07-26 09:04:55,381] {dbapi.py:330} INFO - Done loading. Loaded a total of 3 rows
+[2022-07-26 09:04:55,382] {processor.py:651} INFO - DAG(s) dict_keys(['postgres_job']) retrieved from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 09:04:55,402] {logging_mixin.py:115} INFO - [2022-07-26 09:04:55,402] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-26 09:04:55,432] {logging_mixin.py:115} INFO - [2022-07-26 09:04:55,431] {dag.py:2972} INFO - Setting next_dagrun for postgres_job to 2022-05-01T09:34:00+00:00, run_after=2022-05-01T09:35:00+00:00
+[2022-07-26 09:04:55,447] {processor.py:161} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.150 seconds
+[2022-07-26 09:05:25,625] {processor.py:153} INFO - Started process (PID=958) to work on /opt/airflow/dags/dummy_dag.py
+[2022-07-26 09:05:25,626] {processor.py:641} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2022-07-26 09:05:25,628] {logging_mixin.py:115} INFO - [2022-07-26 09:05:25,628] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 09:05:25,667] {logging_mixin.py:115} INFO - [2022-07-26 09:05:25,667] {base.py:68} INFO - Using connection ID 'postgres_terminal' for task execution.
+[2022-07-26 09:05:25,684] {logging_mixin.py:115} INFO - [2022-07-26 09:05:25,683] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 09:05:25,698] {logging_mixin.py:115} INFO - [2022-07-26 09:05:25,698] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 09:05:25,712] {logging_mixin.py:115} INFO - [2022-07-26 09:05:25,712] {dbapi.py:330} INFO - Done loading. Loaded a total of 3 rows
+[2022-07-26 09:05:25,713] {processor.py:651} INFO - DAG(s) dict_keys(['postgres_job']) retrieved from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 09:05:25,733] {logging_mixin.py:115} INFO - [2022-07-26 09:05:25,733] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-26 09:05:25,761] {logging_mixin.py:115} INFO - [2022-07-26 09:05:25,761] {dag.py:2972} INFO - Setting next_dagrun for postgres_job to 2022-05-01T09:34:00+00:00, run_after=2022-05-01T09:35:00+00:00
+[2022-07-26 09:05:25,776] {processor.py:161} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.158 seconds
+[2022-07-26 09:05:55,945] {processor.py:153} INFO - Started process (PID=974) to work on /opt/airflow/dags/dummy_dag.py
+[2022-07-26 09:05:55,947] {processor.py:641} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2022-07-26 09:05:55,948] {logging_mixin.py:115} INFO - [2022-07-26 09:05:55,948] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 09:05:55,992] {logging_mixin.py:115} INFO - [2022-07-26 09:05:55,992] {base.py:68} INFO - Using connection ID 'postgres_terminal' for task execution.
+[2022-07-26 09:05:56,007] {logging_mixin.py:115} INFO - [2022-07-26 09:05:56,007] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 09:05:56,023] {logging_mixin.py:115} INFO - [2022-07-26 09:05:56,022] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 09:05:56,034] {logging_mixin.py:115} INFO - [2022-07-26 09:05:56,034] {dbapi.py:330} INFO - Done loading. Loaded a total of 3 rows
+[2022-07-26 09:05:56,036] {processor.py:651} INFO - DAG(s) dict_keys(['postgres_job']) retrieved from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 09:05:56,060] {logging_mixin.py:115} INFO - [2022-07-26 09:05:56,059] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-26 09:05:56,084] {logging_mixin.py:115} INFO - [2022-07-26 09:05:56,083] {dag.py:2972} INFO - Setting next_dagrun for postgres_job to 2022-05-01T09:34:00+00:00, run_after=2022-05-01T09:35:00+00:00
+[2022-07-26 09:05:56,099] {processor.py:161} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.162 seconds
+[2022-07-26 09:06:26,266] {processor.py:153} INFO - Started process (PID=990) to work on /opt/airflow/dags/dummy_dag.py
+[2022-07-26 09:06:26,268] {processor.py:641} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2022-07-26 09:06:26,271] {logging_mixin.py:115} INFO - [2022-07-26 09:06:26,270] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 09:06:26,310] {logging_mixin.py:115} INFO - [2022-07-26 09:06:26,310] {base.py:68} INFO - Using connection ID 'postgres_terminal' for task execution.
+[2022-07-26 09:06:26,324] {logging_mixin.py:115} INFO - [2022-07-26 09:06:26,323] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 09:06:26,337] {logging_mixin.py:115} INFO - [2022-07-26 09:06:26,337] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 09:06:26,351] {logging_mixin.py:115} INFO - [2022-07-26 09:06:26,351] {dbapi.py:330} INFO - Done loading. Loaded a total of 3 rows
+[2022-07-26 09:06:26,352] {processor.py:651} INFO - DAG(s) dict_keys(['postgres_job']) retrieved from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 09:06:26,372] {logging_mixin.py:115} INFO - [2022-07-26 09:06:26,372] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-26 09:06:26,399] {logging_mixin.py:115} INFO - [2022-07-26 09:06:26,399] {dag.py:2972} INFO - Setting next_dagrun for postgres_job to 2022-05-01T09:34:00+00:00, run_after=2022-05-01T09:35:00+00:00
+[2022-07-26 09:06:26,413] {processor.py:161} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.152 seconds
+[2022-07-26 09:06:56,579] {processor.py:153} INFO - Started process (PID=1006) to work on /opt/airflow/dags/dummy_dag.py
+[2022-07-26 09:06:56,580] {processor.py:641} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2022-07-26 09:06:56,581] {logging_mixin.py:115} INFO - [2022-07-26 09:06:56,581] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 09:06:56,618] {logging_mixin.py:115} INFO - [2022-07-26 09:06:56,618] {base.py:68} INFO - Using connection ID 'postgres_terminal' for task execution.
+[2022-07-26 09:06:56,631] {logging_mixin.py:115} INFO - [2022-07-26 09:06:56,631] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 09:06:56,647] {logging_mixin.py:115} INFO - [2022-07-26 09:06:56,647] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 09:06:56,661] {logging_mixin.py:115} INFO - [2022-07-26 09:06:56,661] {dbapi.py:330} INFO - Done loading. Loaded a total of 3 rows
+[2022-07-26 09:06:56,664] {processor.py:651} INFO - DAG(s) dict_keys(['postgres_job']) retrieved from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 09:06:56,685] {logging_mixin.py:115} INFO - [2022-07-26 09:06:56,685] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-26 09:06:56,713] {logging_mixin.py:115} INFO - [2022-07-26 09:06:56,712] {dag.py:2972} INFO - Setting next_dagrun for postgres_job to 2022-05-01T09:34:00+00:00, run_after=2022-05-01T09:35:00+00:00
+[2022-07-26 09:06:56,727] {processor.py:161} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.154 seconds
+[2022-07-26 09:07:26,887] {processor.py:153} INFO - Started process (PID=1022) to work on /opt/airflow/dags/dummy_dag.py
+[2022-07-26 09:07:26,889] {processor.py:641} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2022-07-26 09:07:26,890] {logging_mixin.py:115} INFO - [2022-07-26 09:07:26,890] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 09:07:26,942] {logging_mixin.py:115} INFO - [2022-07-26 09:07:26,942] {base.py:68} INFO - Using connection ID 'postgres_terminal' for task execution.
+[2022-07-26 09:07:26,958] {logging_mixin.py:115} INFO - [2022-07-26 09:07:26,958] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 09:07:26,974] {logging_mixin.py:115} INFO - [2022-07-26 09:07:26,974] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 09:07:26,989] {logging_mixin.py:115} INFO - [2022-07-26 09:07:26,989] {dbapi.py:330} INFO - Done loading. Loaded a total of 3 rows
+[2022-07-26 09:07:26,990] {processor.py:651} INFO - DAG(s) dict_keys(['postgres_job']) retrieved from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 09:07:27,032] {logging_mixin.py:115} INFO - [2022-07-26 09:07:27,032] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-26 09:07:27,215] {logging_mixin.py:115} INFO - [2022-07-26 09:07:27,214] {dag.py:2972} INFO - Setting next_dagrun for postgres_job to 2022-05-01T09:34:00+00:00, run_after=2022-05-01T09:35:00+00:00
+[2022-07-26 09:07:27,251] {processor.py:161} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.370 seconds
+[2022-07-26 09:07:57,452] {processor.py:153} INFO - Started process (PID=1039) to work on /opt/airflow/dags/dummy_dag.py
+[2022-07-26 09:07:57,453] {processor.py:641} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2022-07-26 09:07:57,454] {logging_mixin.py:115} INFO - [2022-07-26 09:07:57,454] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 09:07:57,506] {logging_mixin.py:115} INFO - [2022-07-26 09:07:57,506] {base.py:68} INFO - Using connection ID 'postgres_terminal' for task execution.
+[2022-07-26 09:07:57,526] {logging_mixin.py:115} INFO - [2022-07-26 09:07:57,526] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 09:07:57,551] {logging_mixin.py:115} INFO - [2022-07-26 09:07:57,551] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 09:07:57,578] {logging_mixin.py:115} INFO - [2022-07-26 09:07:57,578] {dbapi.py:330} INFO - Done loading. Loaded a total of 3 rows
+[2022-07-26 09:07:57,580] {processor.py:651} INFO - DAG(s) dict_keys(['postgres_job']) retrieved from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 09:07:57,617] {logging_mixin.py:115} INFO - [2022-07-26 09:07:57,617] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-26 09:07:57,653] {logging_mixin.py:115} INFO - [2022-07-26 09:07:57,653] {dag.py:2972} INFO - Setting next_dagrun for postgres_job to 2022-05-01T09:34:00+00:00, run_after=2022-05-01T09:35:00+00:00
+[2022-07-26 09:07:57,666] {processor.py:161} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.219 seconds
+[2022-07-26 09:08:27,828] {processor.py:153} INFO - Started process (PID=1058) to work on /opt/airflow/dags/dummy_dag.py
+[2022-07-26 09:08:27,831] {processor.py:641} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2022-07-26 09:08:27,833] {logging_mixin.py:115} INFO - [2022-07-26 09:08:27,833] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 09:08:27,888] {logging_mixin.py:115} INFO - [2022-07-26 09:08:27,888] {base.py:68} INFO - Using connection ID 'postgres_terminal' for task execution.
+[2022-07-26 09:08:27,905] {logging_mixin.py:115} INFO - [2022-07-26 09:08:27,905] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 09:08:27,918] {logging_mixin.py:115} INFO - [2022-07-26 09:08:27,918] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 09:08:27,930] {logging_mixin.py:115} INFO - [2022-07-26 09:08:27,930] {dbapi.py:330} INFO - Done loading. Loaded a total of 3 rows
+[2022-07-26 09:08:27,933] {processor.py:651} INFO - DAG(s) dict_keys(['postgres_job']) retrieved from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 09:08:27,951] {logging_mixin.py:115} INFO - [2022-07-26 09:08:27,951] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-26 09:08:27,978] {logging_mixin.py:115} INFO - [2022-07-26 09:08:27,978] {dag.py:2972} INFO - Setting next_dagrun for postgres_job to 2022-05-01T09:34:00+00:00, run_after=2022-05-01T09:35:00+00:00
+[2022-07-26 09:08:27,990] {processor.py:161} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.173 seconds
+[2022-07-26 09:08:58,160] {processor.py:153} INFO - Started process (PID=1074) to work on /opt/airflow/dags/dummy_dag.py
+[2022-07-26 09:08:58,162] {processor.py:641} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2022-07-26 09:08:58,164] {logging_mixin.py:115} INFO - [2022-07-26 09:08:58,164] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 09:08:58,208] {logging_mixin.py:115} INFO - [2022-07-26 09:08:58,208] {base.py:68} INFO - Using connection ID 'postgres_terminal' for task execution.
+[2022-07-26 09:08:58,225] {logging_mixin.py:115} INFO - [2022-07-26 09:08:58,225] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 09:08:58,245] {logging_mixin.py:115} INFO - [2022-07-26 09:08:58,244] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 09:08:58,260] {logging_mixin.py:115} INFO - [2022-07-26 09:08:58,260] {dbapi.py:330} INFO - Done loading. Loaded a total of 3 rows
+[2022-07-26 09:08:58,261] {processor.py:651} INFO - DAG(s) dict_keys(['postgres_job']) retrieved from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 09:08:58,286] {logging_mixin.py:115} INFO - [2022-07-26 09:08:58,286] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-26 09:08:58,309] {logging_mixin.py:115} INFO - [2022-07-26 09:08:58,309] {dag.py:2972} INFO - Setting next_dagrun for postgres_job to 2022-05-01T09:34:00+00:00, run_after=2022-05-01T09:35:00+00:00
+[2022-07-26 09:08:58,324] {processor.py:161} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.172 seconds
+[2022-07-26 09:09:28,476] {processor.py:153} INFO - Started process (PID=1090) to work on /opt/airflow/dags/dummy_dag.py
+[2022-07-26 09:09:28,495] {processor.py:641} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2022-07-26 09:09:28,498] {logging_mixin.py:115} INFO - [2022-07-26 09:09:28,498] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 09:09:28,537] {logging_mixin.py:115} INFO - [2022-07-26 09:09:28,537] {base.py:68} INFO - Using connection ID 'postgres_terminal' for task execution.
+[2022-07-26 09:09:28,551] {logging_mixin.py:115} INFO - [2022-07-26 09:09:28,551] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 09:09:28,567] {logging_mixin.py:115} INFO - [2022-07-26 09:09:28,567] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 09:09:28,580] {logging_mixin.py:115} INFO - [2022-07-26 09:09:28,580] {dbapi.py:330} INFO - Done loading. Loaded a total of 3 rows
+[2022-07-26 09:09:28,581] {processor.py:651} INFO - DAG(s) dict_keys(['postgres_job']) retrieved from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 09:09:28,600] {logging_mixin.py:115} INFO - [2022-07-26 09:09:28,600] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-26 09:09:28,624] {logging_mixin.py:115} INFO - [2022-07-26 09:09:28,624] {dag.py:2972} INFO - Setting next_dagrun for postgres_job to 2022-05-01T09:34:00+00:00, run_after=2022-05-01T09:35:00+00:00
+[2022-07-26 09:09:28,640] {processor.py:161} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.169 seconds
+[2022-07-26 09:09:58,813] {processor.py:153} INFO - Started process (PID=1106) to work on /opt/airflow/dags/dummy_dag.py
+[2022-07-26 09:09:58,815] {processor.py:641} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2022-07-26 09:09:58,817] {logging_mixin.py:115} INFO - [2022-07-26 09:09:58,817] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 09:09:58,862] {logging_mixin.py:115} INFO - [2022-07-26 09:09:58,862] {base.py:68} INFO - Using connection ID 'postgres_terminal' for task execution.
+[2022-07-26 09:09:58,877] {logging_mixin.py:115} INFO - [2022-07-26 09:09:58,877] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 09:09:58,891] {logging_mixin.py:115} INFO - [2022-07-26 09:09:58,891] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 09:09:58,904] {logging_mixin.py:115} INFO - [2022-07-26 09:09:58,904] {dbapi.py:330} INFO - Done loading. Loaded a total of 3 rows
+[2022-07-26 09:09:58,907] {processor.py:651} INFO - DAG(s) dict_keys(['postgres_job']) retrieved from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 09:09:58,927] {logging_mixin.py:115} INFO - [2022-07-26 09:09:58,927] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-26 09:09:58,956] {logging_mixin.py:115} INFO - [2022-07-26 09:09:58,956] {dag.py:2972} INFO - Setting next_dagrun for postgres_job to 2022-05-01T09:34:00+00:00, run_after=2022-05-01T09:35:00+00:00
+[2022-07-26 09:09:58,972] {processor.py:161} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.168 seconds
+[2022-07-26 09:10:29,127] {processor.py:153} INFO - Started process (PID=1122) to work on /opt/airflow/dags/dummy_dag.py
+[2022-07-26 09:10:29,129] {processor.py:641} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2022-07-26 09:10:29,131] {logging_mixin.py:115} INFO - [2022-07-26 09:10:29,131] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 09:10:29,171] {logging_mixin.py:115} INFO - [2022-07-26 09:10:29,171] {base.py:68} INFO - Using connection ID 'postgres_terminal' for task execution.
+[2022-07-26 09:10:29,189] {logging_mixin.py:115} INFO - [2022-07-26 09:10:29,189] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 09:10:29,203] {logging_mixin.py:115} INFO - [2022-07-26 09:10:29,203] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 09:10:29,217] {logging_mixin.py:115} INFO - [2022-07-26 09:10:29,217] {dbapi.py:330} INFO - Done loading. Loaded a total of 3 rows
+[2022-07-26 09:10:29,218] {processor.py:651} INFO - DAG(s) dict_keys(['postgres_job']) retrieved from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 09:10:29,244] {logging_mixin.py:115} INFO - [2022-07-26 09:10:29,244] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-26 09:10:29,269] {logging_mixin.py:115} INFO - [2022-07-26 09:10:29,269] {dag.py:2972} INFO - Setting next_dagrun for postgres_job to 2022-05-01T09:34:00+00:00, run_after=2022-05-01T09:35:00+00:00
+[2022-07-26 09:10:29,282] {processor.py:161} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.161 seconds
+[2022-07-26 09:10:59,452] {processor.py:153} INFO - Started process (PID=1138) to work on /opt/airflow/dags/dummy_dag.py
+[2022-07-26 09:10:59,454] {processor.py:641} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2022-07-26 09:10:59,456] {logging_mixin.py:115} INFO - [2022-07-26 09:10:59,456] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 09:10:59,494] {logging_mixin.py:115} INFO - [2022-07-26 09:10:59,494] {base.py:68} INFO - Using connection ID 'postgres_terminal' for task execution.
+[2022-07-26 09:10:59,509] {logging_mixin.py:115} INFO - [2022-07-26 09:10:59,509] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 09:10:59,522] {logging_mixin.py:115} INFO - [2022-07-26 09:10:59,522] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 09:10:59,533] {logging_mixin.py:115} INFO - [2022-07-26 09:10:59,533] {dbapi.py:330} INFO - Done loading. Loaded a total of 3 rows
+[2022-07-26 09:10:59,535] {processor.py:651} INFO - DAG(s) dict_keys(['postgres_job']) retrieved from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 09:10:59,554] {logging_mixin.py:115} INFO - [2022-07-26 09:10:59,554] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-26 09:10:59,579] {logging_mixin.py:115} INFO - [2022-07-26 09:10:59,579] {dag.py:2972} INFO - Setting next_dagrun for postgres_job to 2022-05-01T09:34:00+00:00, run_after=2022-05-01T09:35:00+00:00
+[2022-07-26 09:10:59,595] {processor.py:161} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.148 seconds
+[2022-07-26 09:11:29,828] {processor.py:153} INFO - Started process (PID=1154) to work on /opt/airflow/dags/dummy_dag.py
+[2022-07-26 09:11:29,829] {processor.py:641} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2022-07-26 09:11:29,830] {logging_mixin.py:115} INFO - [2022-07-26 09:11:29,830] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 09:11:29,868] {logging_mixin.py:115} INFO - [2022-07-26 09:11:29,868] {base.py:68} INFO - Using connection ID 'postgres_terminal' for task execution.
+[2022-07-26 09:11:29,883] {logging_mixin.py:115} INFO - [2022-07-26 09:11:29,883] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 09:11:29,897] {logging_mixin.py:115} INFO - [2022-07-26 09:11:29,897] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 09:11:29,911] {logging_mixin.py:115} INFO - [2022-07-26 09:11:29,911] {dbapi.py:330} INFO - Done loading. Loaded a total of 3 rows
+[2022-07-26 09:11:29,913] {processor.py:651} INFO - DAG(s) dict_keys(['postgres_job']) retrieved from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 09:11:29,936] {logging_mixin.py:115} INFO - [2022-07-26 09:11:29,936] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-26 09:11:29,958] {logging_mixin.py:115} INFO - [2022-07-26 09:11:29,958] {dag.py:2972} INFO - Setting next_dagrun for postgres_job to 2022-05-01T09:34:00+00:00, run_after=2022-05-01T09:35:00+00:00
+[2022-07-26 09:11:29,972] {processor.py:161} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.150 seconds
+[2022-07-26 09:12:00,147] {processor.py:153} INFO - Started process (PID=1170) to work on /opt/airflow/dags/dummy_dag.py
+[2022-07-26 09:12:00,149] {processor.py:641} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2022-07-26 09:12:00,150] {logging_mixin.py:115} INFO - [2022-07-26 09:12:00,150] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 09:12:00,186] {logging_mixin.py:115} INFO - [2022-07-26 09:12:00,186] {base.py:68} INFO - Using connection ID 'postgres_terminal' for task execution.
+[2022-07-26 09:12:00,199] {logging_mixin.py:115} INFO - [2022-07-26 09:12:00,199] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 09:12:00,214] {logging_mixin.py:115} INFO - [2022-07-26 09:12:00,214] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 09:12:00,227] {logging_mixin.py:115} INFO - [2022-07-26 09:12:00,227] {dbapi.py:330} INFO - Done loading. Loaded a total of 3 rows
+[2022-07-26 09:12:00,230] {processor.py:651} INFO - DAG(s) dict_keys(['postgres_job']) retrieved from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 09:12:00,249] {logging_mixin.py:115} INFO - [2022-07-26 09:12:00,249] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-26 09:12:00,274] {logging_mixin.py:115} INFO - [2022-07-26 09:12:00,274] {dag.py:2972} INFO - Setting next_dagrun for postgres_job to 2022-05-01T09:34:00+00:00, run_after=2022-05-01T09:35:00+00:00
+[2022-07-26 09:12:00,288] {processor.py:161} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.146 seconds
+[2022-07-26 09:12:30,457] {processor.py:153} INFO - Started process (PID=1186) to work on /opt/airflow/dags/dummy_dag.py
+[2022-07-26 09:12:30,458] {processor.py:641} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2022-07-26 09:12:30,459] {logging_mixin.py:115} INFO - [2022-07-26 09:12:30,459] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 09:12:30,497] {logging_mixin.py:115} INFO - [2022-07-26 09:12:30,497] {base.py:68} INFO - Using connection ID 'postgres_terminal' for task execution.
+[2022-07-26 09:12:30,513] {logging_mixin.py:115} INFO - [2022-07-26 09:12:30,513] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 09:12:30,528] {logging_mixin.py:115} INFO - [2022-07-26 09:12:30,527] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 09:12:30,541] {logging_mixin.py:115} INFO - [2022-07-26 09:12:30,541] {dbapi.py:330} INFO - Done loading. Loaded a total of 3 rows
+[2022-07-26 09:12:30,542] {processor.py:651} INFO - DAG(s) dict_keys(['postgres_job']) retrieved from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 09:12:30,564] {logging_mixin.py:115} INFO - [2022-07-26 09:12:30,563] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-26 09:12:30,589] {logging_mixin.py:115} INFO - [2022-07-26 09:12:30,589] {dag.py:2972} INFO - Setting next_dagrun for postgres_job to 2022-05-01T09:34:00+00:00, run_after=2022-05-01T09:35:00+00:00
+[2022-07-26 09:12:30,603] {processor.py:161} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.152 seconds
+[2022-07-26 09:13:00,756] {processor.py:153} INFO - Started process (PID=1202) to work on /opt/airflow/dags/dummy_dag.py
+[2022-07-26 09:13:00,758] {processor.py:641} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2022-07-26 09:13:00,759] {logging_mixin.py:115} INFO - [2022-07-26 09:13:00,759] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 09:13:00,802] {logging_mixin.py:115} INFO - [2022-07-26 09:13:00,802] {base.py:68} INFO - Using connection ID 'postgres_terminal' for task execution.
+[2022-07-26 09:13:00,816] {logging_mixin.py:115} INFO - [2022-07-26 09:13:00,815] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 09:13:00,830] {logging_mixin.py:115} INFO - [2022-07-26 09:13:00,829] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 09:13:00,844] {logging_mixin.py:115} INFO - [2022-07-26 09:13:00,844] {dbapi.py:330} INFO - Done loading. Loaded a total of 3 rows
+[2022-07-26 09:13:00,845] {processor.py:651} INFO - DAG(s) dict_keys(['postgres_job']) retrieved from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 09:13:00,866] {logging_mixin.py:115} INFO - [2022-07-26 09:13:00,866] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-26 09:13:00,889] {logging_mixin.py:115} INFO - [2022-07-26 09:13:00,889] {dag.py:2972} INFO - Setting next_dagrun for postgres_job to 2022-05-01T09:34:00+00:00, run_after=2022-05-01T09:35:00+00:00
+[2022-07-26 09:13:00,902] {processor.py:161} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.151 seconds
+[2022-07-26 09:13:31,106] {processor.py:153} INFO - Started process (PID=1218) to work on /opt/airflow/dags/dummy_dag.py
+[2022-07-26 09:13:31,107] {processor.py:641} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2022-07-26 09:13:31,109] {logging_mixin.py:115} INFO - [2022-07-26 09:13:31,109] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 09:13:31,149] {logging_mixin.py:115} INFO - [2022-07-26 09:13:31,148] {base.py:68} INFO - Using connection ID 'postgres_terminal' for task execution.
+[2022-07-26 09:13:31,166] {logging_mixin.py:115} INFO - [2022-07-26 09:13:31,166] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 09:13:31,182] {logging_mixin.py:115} INFO - [2022-07-26 09:13:31,182] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 09:13:31,196] {logging_mixin.py:115} INFO - [2022-07-26 09:13:31,196] {dbapi.py:330} INFO - Done loading. Loaded a total of 3 rows
+[2022-07-26 09:13:31,198] {processor.py:651} INFO - DAG(s) dict_keys(['postgres_job']) retrieved from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 09:13:31,219] {logging_mixin.py:115} INFO - [2022-07-26 09:13:31,219] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-26 09:13:31,243] {logging_mixin.py:115} INFO - [2022-07-26 09:13:31,243] {dag.py:2972} INFO - Setting next_dagrun for postgres_job to 2022-05-01T09:34:00+00:00, run_after=2022-05-01T09:35:00+00:00
+[2022-07-26 09:13:31,257] {processor.py:161} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.156 seconds
+[2022-07-26 09:14:01,429] {processor.py:153} INFO - Started process (PID=1234) to work on /opt/airflow/dags/dummy_dag.py
+[2022-07-26 09:14:01,431] {processor.py:641} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2022-07-26 09:14:01,433] {logging_mixin.py:115} INFO - [2022-07-26 09:14:01,432] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 09:14:01,472] {logging_mixin.py:115} INFO - [2022-07-26 09:14:01,472] {base.py:68} INFO - Using connection ID 'postgres_terminal' for task execution.
+[2022-07-26 09:14:01,488] {logging_mixin.py:115} INFO - [2022-07-26 09:14:01,488] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 09:14:01,504] {logging_mixin.py:115} INFO - [2022-07-26 09:14:01,504] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 09:14:01,518] {logging_mixin.py:115} INFO - [2022-07-26 09:14:01,518] {dbapi.py:330} INFO - Done loading. Loaded a total of 3 rows
+[2022-07-26 09:14:01,522] {processor.py:651} INFO - DAG(s) dict_keys(['postgres_job']) retrieved from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 09:14:01,544] {logging_mixin.py:115} INFO - [2022-07-26 09:14:01,543] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-26 09:14:01,565] {logging_mixin.py:115} INFO - [2022-07-26 09:14:01,565] {dag.py:2972} INFO - Setting next_dagrun for postgres_job to 2022-05-01T09:34:00+00:00, run_after=2022-05-01T09:35:00+00:00
+[2022-07-26 09:14:01,580] {processor.py:161} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.158 seconds
+[2022-07-26 09:14:31,742] {processor.py:153} INFO - Started process (PID=1250) to work on /opt/airflow/dags/dummy_dag.py
+[2022-07-26 09:14:31,744] {processor.py:641} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2022-07-26 09:14:31,745] {logging_mixin.py:115} INFO - [2022-07-26 09:14:31,745] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 09:14:31,783] {logging_mixin.py:115} INFO - [2022-07-26 09:14:31,783] {base.py:68} INFO - Using connection ID 'postgres_terminal' for task execution.
+[2022-07-26 09:14:31,797] {logging_mixin.py:115} INFO - [2022-07-26 09:14:31,797] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 09:14:31,810] {logging_mixin.py:115} INFO - [2022-07-26 09:14:31,810] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 09:14:31,824] {logging_mixin.py:115} INFO - [2022-07-26 09:14:31,824] {dbapi.py:330} INFO - Done loading. Loaded a total of 3 rows
+[2022-07-26 09:14:31,826] {processor.py:651} INFO - DAG(s) dict_keys(['postgres_job']) retrieved from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 09:14:31,849] {logging_mixin.py:115} INFO - [2022-07-26 09:14:31,849] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-26 09:14:31,874] {logging_mixin.py:115} INFO - [2022-07-26 09:14:31,874] {dag.py:2972} INFO - Setting next_dagrun for postgres_job to 2022-05-01T09:34:00+00:00, run_after=2022-05-01T09:35:00+00:00
+[2022-07-26 09:14:31,890] {processor.py:161} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.153 seconds
+[2022-07-26 09:15:02,074] {processor.py:153} INFO - Started process (PID=1265) to work on /opt/airflow/dags/dummy_dag.py
+[2022-07-26 09:15:02,082] {processor.py:641} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2022-07-26 09:15:02,083] {logging_mixin.py:115} INFO - [2022-07-26 09:15:02,083] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 09:15:02,156] {logging_mixin.py:115} INFO - [2022-07-26 09:15:02,155] {base.py:68} INFO - Using connection ID 'postgres_terminal' for task execution.
+[2022-07-26 09:15:02,173] {logging_mixin.py:115} INFO - [2022-07-26 09:15:02,173] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 09:15:02,186] {logging_mixin.py:115} INFO - [2022-07-26 09:15:02,186] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 09:15:02,199] {logging_mixin.py:115} INFO - [2022-07-26 09:15:02,199] {dbapi.py:330} INFO - Done loading. Loaded a total of 3 rows
+[2022-07-26 09:15:02,200] {processor.py:651} INFO - DAG(s) dict_keys(['postgres_job']) retrieved from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 09:15:02,218] {logging_mixin.py:115} INFO - [2022-07-26 09:15:02,218] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-26 09:15:02,241] {logging_mixin.py:115} INFO - [2022-07-26 09:15:02,241] {dag.py:2972} INFO - Setting next_dagrun for postgres_job to 2022-05-01T09:34:00+00:00, run_after=2022-05-01T09:35:00+00:00
+[2022-07-26 09:15:02,254] {processor.py:161} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.186 seconds
+[2022-07-26 09:19:32,909] {processor.py:153} INFO - Started process (PID=1294) to work on /opt/airflow/dags/dummy_dag.py
+[2022-07-26 09:19:32,911] {processor.py:641} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2022-07-26 09:19:32,913] {logging_mixin.py:115} INFO - [2022-07-26 09:19:32,913] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 09:19:32,970] {logging_mixin.py:115} INFO - [2022-07-26 09:19:32,970] {base.py:68} INFO - Using connection ID 'postgres_terminal' for task execution.
+[2022-07-26 09:19:33,007] {logging_mixin.py:115} INFO - [2022-07-26 09:19:33,007] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 09:19:33,040] {logging_mixin.py:115} INFO - [2022-07-26 09:19:33,040] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 09:19:33,063] {logging_mixin.py:115} INFO - [2022-07-26 09:19:33,062] {dbapi.py:330} INFO - Done loading. Loaded a total of 3 rows
+[2022-07-26 09:19:33,065] {processor.py:651} INFO - DAG(s) dict_keys(['postgres_job']) retrieved from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 09:19:33,103] {logging_mixin.py:115} INFO - [2022-07-26 09:19:33,103] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-26 09:19:33,144] {logging_mixin.py:115} INFO - [2022-07-26 09:19:33,144] {dag.py:2972} INFO - Setting next_dagrun for postgres_job to 2022-05-01T09:34:00+00:00, run_after=2022-05-01T09:35:00+00:00
+[2022-07-26 09:19:33,165] {processor.py:161} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.263 seconds
+[2022-07-26 09:20:04,078] {processor.py:153} INFO - Started process (PID=1309) to work on /opt/airflow/dags/dummy_dag.py
+[2022-07-26 09:20:04,080] {processor.py:641} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2022-07-26 09:20:04,083] {logging_mixin.py:115} INFO - [2022-07-26 09:20:04,082] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 09:20:04,122] {logging_mixin.py:115} INFO - [2022-07-26 09:20:04,122] {base.py:68} INFO - Using connection ID 'postgres_terminal' for task execution.
+[2022-07-26 09:20:04,136] {logging_mixin.py:115} INFO - [2022-07-26 09:20:04,136] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 09:20:04,150] {logging_mixin.py:115} INFO - [2022-07-26 09:20:04,150] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 09:20:04,162] {logging_mixin.py:115} INFO - [2022-07-26 09:20:04,162] {dbapi.py:330} INFO - Done loading. Loaded a total of 3 rows
+[2022-07-26 09:20:04,165] {processor.py:651} INFO - DAG(s) dict_keys(['postgres_job']) retrieved from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 09:20:04,184] {logging_mixin.py:115} INFO - [2022-07-26 09:20:04,184] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-26 09:20:04,214] {logging_mixin.py:115} INFO - [2022-07-26 09:20:04,214] {dag.py:2972} INFO - Setting next_dagrun for postgres_job to 2022-05-01T09:34:00+00:00, run_after=2022-05-01T09:35:00+00:00
+[2022-07-26 09:20:04,241] {processor.py:161} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.168 seconds
+[2022-07-26 09:20:34,428] {processor.py:153} INFO - Started process (PID=1322) to work on /opt/airflow/dags/dummy_dag.py
+[2022-07-26 09:20:34,431] {processor.py:641} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2022-07-26 09:20:34,432] {logging_mixin.py:115} INFO - [2022-07-26 09:20:34,432] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 09:20:34,466] {logging_mixin.py:115} INFO - [2022-07-26 09:20:34,466] {base.py:68} INFO - Using connection ID 'postgres_terminal' for task execution.
+[2022-07-26 09:20:34,479] {logging_mixin.py:115} INFO - [2022-07-26 09:20:34,479] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 09:20:34,491] {logging_mixin.py:115} INFO - [2022-07-26 09:20:34,490] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 09:20:34,502] {logging_mixin.py:115} INFO - [2022-07-26 09:20:34,502] {dbapi.py:330} INFO - Done loading. Loaded a total of 3 rows
+[2022-07-26 09:20:34,503] {processor.py:651} INFO - DAG(s) dict_keys(['postgres_job']) retrieved from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 09:20:34,518] {logging_mixin.py:115} INFO - [2022-07-26 09:20:34,518] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-26 09:20:34,550] {logging_mixin.py:115} INFO - [2022-07-26 09:20:34,550] {dag.py:2972} INFO - Setting next_dagrun for postgres_job to 2022-05-01T09:34:00+00:00, run_after=2022-05-01T09:35:00+00:00
+[2022-07-26 09:20:34,563] {processor.py:161} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.139 seconds
+[2022-07-26 09:21:04,755] {processor.py:153} INFO - Started process (PID=1338) to work on /opt/airflow/dags/dummy_dag.py
+[2022-07-26 09:21:04,757] {processor.py:641} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2022-07-26 09:21:04,759] {logging_mixin.py:115} INFO - [2022-07-26 09:21:04,758] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 09:21:04,810] {logging_mixin.py:115} INFO - [2022-07-26 09:21:04,810] {base.py:68} INFO - Using connection ID 'postgres_terminal' for task execution.
+[2022-07-26 09:21:04,823] {logging_mixin.py:115} INFO - [2022-07-26 09:21:04,823] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 09:21:04,849] {logging_mixin.py:115} INFO - [2022-07-26 09:21:04,849] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 09:21:04,869] {logging_mixin.py:115} INFO - [2022-07-26 09:21:04,869] {dbapi.py:330} INFO - Done loading. Loaded a total of 3 rows
+[2022-07-26 09:21:04,870] {processor.py:651} INFO - DAG(s) dict_keys(['postgres_job']) retrieved from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 09:21:04,888] {logging_mixin.py:115} INFO - [2022-07-26 09:21:04,888] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-26 09:21:04,911] {logging_mixin.py:115} INFO - [2022-07-26 09:21:04,910] {dag.py:2972} INFO - Setting next_dagrun for postgres_job to 2022-05-01T09:34:00+00:00, run_after=2022-05-01T09:35:00+00:00
+[2022-07-26 09:21:04,923] {processor.py:161} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.172 seconds
+[2022-07-26 11:21:24,687] {processor.py:153} INFO - Started process (PID=1362) to work on /opt/airflow/dags/dummy_dag.py
+[2022-07-26 11:21:24,700] {processor.py:641} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2022-07-26 11:21:24,702] {logging_mixin.py:115} INFO - [2022-07-26 11:21:24,702] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 11:21:24,794] {logging_mixin.py:115} INFO - [2022-07-26 11:21:24,794] {base.py:68} INFO - Using connection ID 'postgres_terminal' for task execution.
+[2022-07-26 11:21:24,831] {logging_mixin.py:115} INFO - [2022-07-26 11:21:24,830] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 11:21:24,860] {logging_mixin.py:115} INFO - [2022-07-26 11:21:24,859] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 11:21:24,886] {logging_mixin.py:115} INFO - [2022-07-26 11:21:24,886] {dbapi.py:330} INFO - Done loading. Loaded a total of 3 rows
+[2022-07-26 11:21:24,888] {processor.py:651} INFO - DAG(s) dict_keys(['postgres_job']) retrieved from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 11:21:24,942] {logging_mixin.py:115} INFO - [2022-07-26 11:21:24,942] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-26 11:21:25,098] {logging_mixin.py:115} INFO - [2022-07-26 11:21:25,098] {dag.py:2972} INFO - Setting next_dagrun for postgres_job to 2022-05-01T09:34:00+00:00, run_after=2022-05-01T09:35:00+00:00
+[2022-07-26 11:21:25,125] {processor.py:161} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.446 seconds
+[2022-07-26 12:28:06,959] {processor.py:153} INFO - Started process (PID=1378) to work on /opt/airflow/dags/dummy_dag.py
+[2022-07-26 12:28:06,962] {processor.py:641} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2022-07-26 12:28:06,964] {logging_mixin.py:115} INFO - [2022-07-26 12:28:06,964] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 12:28:07,027] {logging_mixin.py:115} INFO - [2022-07-26 12:28:07,026] {base.py:68} INFO - Using connection ID 'postgres_terminal' for task execution.
+[2022-07-26 12:28:07,051] {logging_mixin.py:115} INFO - [2022-07-26 12:28:07,051] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 12:28:07,075] {logging_mixin.py:115} INFO - [2022-07-26 12:28:07,075] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 12:28:07,096] {logging_mixin.py:115} INFO - [2022-07-26 12:28:07,095] {dbapi.py:330} INFO - Done loading. Loaded a total of 3 rows
+[2022-07-26 12:28:07,098] {processor.py:651} INFO - DAG(s) dict_keys(['postgres_job']) retrieved from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 12:28:07,153] {logging_mixin.py:115} INFO - [2022-07-26 12:28:07,153] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-26 12:28:07,242] {logging_mixin.py:115} INFO - [2022-07-26 12:28:07,242] {dag.py:2972} INFO - Setting next_dagrun for postgres_job to 2022-05-01T09:34:00+00:00, run_after=2022-05-01T09:35:00+00:00
+[2022-07-26 12:28:07,266] {processor.py:161} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.315 seconds
+[2022-07-26 12:28:38,366] {processor.py:153} INFO - Started process (PID=1394) to work on /opt/airflow/dags/dummy_dag.py
+[2022-07-26 12:28:38,368] {processor.py:641} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2022-07-26 12:28:38,370] {logging_mixin.py:115} INFO - [2022-07-26 12:28:38,369] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 12:28:38,416] {logging_mixin.py:115} INFO - [2022-07-26 12:28:38,416] {base.py:68} INFO - Using connection ID 'postgres_terminal' for task execution.
+[2022-07-26 12:28:38,433] {logging_mixin.py:115} INFO - [2022-07-26 12:28:38,433] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 12:28:38,451] {logging_mixin.py:115} INFO - [2022-07-26 12:28:38,451] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 12:28:38,466] {logging_mixin.py:115} INFO - [2022-07-26 12:28:38,465] {dbapi.py:330} INFO - Done loading. Loaded a total of 3 rows
+[2022-07-26 12:28:38,467] {processor.py:651} INFO - DAG(s) dict_keys(['postgres_job']) retrieved from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 12:28:38,491] {logging_mixin.py:115} INFO - [2022-07-26 12:28:38,491] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-26 12:28:38,517] {logging_mixin.py:115} INFO - [2022-07-26 12:28:38,517] {dag.py:2972} INFO - Setting next_dagrun for postgres_job to 2022-05-01T09:34:00+00:00, run_after=2022-05-01T09:35:00+00:00
+[2022-07-26 12:28:38,534] {processor.py:161} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.174 seconds
+[2022-07-26 12:29:08,709] {processor.py:153} INFO - Started process (PID=1404) to work on /opt/airflow/dags/dummy_dag.py
+[2022-07-26 12:29:08,711] {processor.py:641} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2022-07-26 12:29:08,716] {logging_mixin.py:115} INFO - [2022-07-26 12:29:08,716] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 12:29:08,783] {logging_mixin.py:115} INFO - [2022-07-26 12:29:08,782] {base.py:68} INFO - Using connection ID 'postgres_terminal' for task execution.
+[2022-07-26 12:29:08,798] {logging_mixin.py:115} INFO - [2022-07-26 12:29:08,798] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 12:29:08,811] {logging_mixin.py:115} INFO - [2022-07-26 12:29:08,811] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 12:29:08,826] {logging_mixin.py:115} INFO - [2022-07-26 12:29:08,826] {dbapi.py:330} INFO - Done loading. Loaded a total of 3 rows
+[2022-07-26 12:29:08,827] {processor.py:651} INFO - DAG(s) dict_keys(['postgres_job']) retrieved from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 12:29:08,846] {logging_mixin.py:115} INFO - [2022-07-26 12:29:08,846] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-26 12:29:08,873] {logging_mixin.py:115} INFO - [2022-07-26 12:29:08,873] {dag.py:2972} INFO - Setting next_dagrun for postgres_job to 2022-05-01T09:34:00+00:00, run_after=2022-05-01T09:35:00+00:00
+[2022-07-26 12:29:08,886] {processor.py:161} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.186 seconds
+[2022-07-26 12:29:39,030] {processor.py:153} INFO - Started process (PID=1420) to work on /opt/airflow/dags/dummy_dag.py
+[2022-07-26 12:29:39,032] {processor.py:641} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2022-07-26 12:29:39,034] {logging_mixin.py:115} INFO - [2022-07-26 12:29:39,034] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 12:29:39,079] {logging_mixin.py:115} INFO - [2022-07-26 12:29:39,079] {base.py:68} INFO - Using connection ID 'postgres_terminal' for task execution.
+[2022-07-26 12:29:39,094] {logging_mixin.py:115} INFO - [2022-07-26 12:29:39,094] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 12:29:39,109] {logging_mixin.py:115} INFO - [2022-07-26 12:29:39,109] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 12:29:39,124] {logging_mixin.py:115} INFO - [2022-07-26 12:29:39,124] {dbapi.py:330} INFO - Done loading. Loaded a total of 3 rows
+[2022-07-26 12:29:39,125] {processor.py:651} INFO - DAG(s) dict_keys(['postgres_job']) retrieved from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 12:29:39,146] {logging_mixin.py:115} INFO - [2022-07-26 12:29:39,146] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-26 12:29:39,176] {logging_mixin.py:115} INFO - [2022-07-26 12:29:39,176] {dag.py:2972} INFO - Setting next_dagrun for postgres_job to 2022-05-01T09:34:00+00:00, run_after=2022-05-01T09:35:00+00:00
+[2022-07-26 12:29:39,193] {processor.py:161} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.168 seconds
+[2022-07-26 12:30:09,381] {processor.py:153} INFO - Started process (PID=1436) to work on /opt/airflow/dags/dummy_dag.py
+[2022-07-26 12:30:09,383] {processor.py:641} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2022-07-26 12:30:09,386] {logging_mixin.py:115} INFO - [2022-07-26 12:30:09,385] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 12:30:09,428] {logging_mixin.py:115} INFO - [2022-07-26 12:30:09,428] {base.py:68} INFO - Using connection ID 'postgres_terminal' for task execution.
+[2022-07-26 12:30:09,445] {logging_mixin.py:115} INFO - [2022-07-26 12:30:09,445] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 12:30:09,460] {logging_mixin.py:115} INFO - [2022-07-26 12:30:09,460] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 12:30:09,475] {logging_mixin.py:115} INFO - [2022-07-26 12:30:09,475] {dbapi.py:330} INFO - Done loading. Loaded a total of 3 rows
+[2022-07-26 12:30:09,477] {processor.py:651} INFO - DAG(s) dict_keys(['postgres_job']) retrieved from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 12:30:09,499] {logging_mixin.py:115} INFO - [2022-07-26 12:30:09,499] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-26 12:30:09,528] {logging_mixin.py:115} INFO - [2022-07-26 12:30:09,528] {dag.py:2972} INFO - Setting next_dagrun for postgres_job to 2022-05-01T09:34:00+00:00, run_after=2022-05-01T09:35:00+00:00
+[2022-07-26 12:30:09,547] {processor.py:161} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.176 seconds
+[2022-07-26 14:23:26,031] {processor.py:153} INFO - Started process (PID=1462) to work on /opt/airflow/dags/dummy_dag.py
+[2022-07-26 14:23:26,052] {processor.py:641} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2022-07-26 14:23:26,056] {logging_mixin.py:115} INFO - [2022-07-26 14:23:26,055] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 14:23:26,149] {logging_mixin.py:115} INFO - [2022-07-26 14:23:26,148] {base.py:68} INFO - Using connection ID 'postgres_terminal' for task execution.
+[2022-07-26 14:23:26,187] {logging_mixin.py:115} INFO - [2022-07-26 14:23:26,186] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 14:23:26,211] {logging_mixin.py:115} INFO - [2022-07-26 14:23:26,211] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 14:23:26,234] {logging_mixin.py:115} INFO - [2022-07-26 14:23:26,233] {dbapi.py:330} INFO - Done loading. Loaded a total of 3 rows
+[2022-07-26 14:23:26,236] {processor.py:651} INFO - DAG(s) dict_keys(['postgres_job']) retrieved from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 14:23:26,266] {logging_mixin.py:115} INFO - [2022-07-26 14:23:26,265] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-26 14:23:26,305] {logging_mixin.py:115} INFO - [2022-07-26 14:23:26,305] {dag.py:2972} INFO - Setting next_dagrun for postgres_job to 2022-05-01T09:34:00+00:00, run_after=2022-05-01T09:35:00+00:00
+[2022-07-26 14:23:26,327] {processor.py:161} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.306 seconds
+[2022-07-26 14:23:56,739] {processor.py:153} INFO - Started process (PID=1478) to work on /opt/airflow/dags/dummy_dag.py
+[2022-07-26 14:23:56,741] {processor.py:641} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2022-07-26 14:23:56,742] {logging_mixin.py:115} INFO - [2022-07-26 14:23:56,742] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 14:23:56,781] {logging_mixin.py:115} INFO - [2022-07-26 14:23:56,781] {base.py:68} INFO - Using connection ID 'postgres_terminal' for task execution.
+[2022-07-26 14:23:56,796] {logging_mixin.py:115} INFO - [2022-07-26 14:23:56,796] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 14:23:56,808] {logging_mixin.py:115} INFO - [2022-07-26 14:23:56,808] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 14:23:56,821] {logging_mixin.py:115} INFO - [2022-07-26 14:23:56,821] {dbapi.py:330} INFO - Done loading. Loaded a total of 3 rows
+[2022-07-26 14:23:56,822] {processor.py:651} INFO - DAG(s) dict_keys(['postgres_job']) retrieved from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 14:23:56,840] {logging_mixin.py:115} INFO - [2022-07-26 14:23:56,840] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-26 14:23:56,864] {logging_mixin.py:115} INFO - [2022-07-26 14:23:56,863] {dag.py:2972} INFO - Setting next_dagrun for postgres_job to 2022-05-01T09:34:00+00:00, run_after=2022-05-01T09:35:00+00:00
+[2022-07-26 14:23:56,881] {processor.py:161} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.147 seconds
+[2022-07-26 14:24:21,707] {processor.py:153} INFO - Started process (PID=1497) to work on /opt/airflow/dags/dummy_dag.py
+[2022-07-26 14:24:21,709] {processor.py:641} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2022-07-26 14:24:21,710] {logging_mixin.py:115} INFO - [2022-07-26 14:24:21,710] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 14:24:21,751] {logging_mixin.py:115} INFO - [2022-07-26 14:24:21,751] {base.py:68} INFO - Using connection ID 'postgres_terminal' for task execution.
+[2022-07-26 14:24:21,766] {logging_mixin.py:115} INFO - [2022-07-26 14:24:21,766] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 14:24:21,781] {logging_mixin.py:115} INFO - [2022-07-26 14:24:21,781] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 14:24:21,793] {logging_mixin.py:115} INFO - [2022-07-26 14:24:21,793] {dbapi.py:330} INFO - Done loading. Loaded a total of 3 rows
+[2022-07-26 14:24:21,795] {processor.py:651} INFO - DAG(s) dict_keys(['postgres_job']) retrieved from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 14:24:21,816] {logging_mixin.py:115} INFO - [2022-07-26 14:24:21,816] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-26 14:24:21,847] {logging_mixin.py:115} INFO - [2022-07-26 14:24:21,846] {dag.py:2972} INFO - Setting next_dagrun for postgres_job to 2022-05-01T09:34:00+00:00, run_after=2022-05-01T09:35:00+00:00
+[2022-07-26 14:24:21,865] {processor.py:161} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.163 seconds
+[2022-07-26 14:24:52,057] {processor.py:153} INFO - Started process (PID=1507) to work on /opt/airflow/dags/dummy_dag.py
+[2022-07-26 14:24:52,060] {processor.py:641} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2022-07-26 14:24:52,062] {logging_mixin.py:115} INFO - [2022-07-26 14:24:52,062] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 14:24:52,115] {logging_mixin.py:115} INFO - [2022-07-26 14:24:52,115] {base.py:68} INFO - Using connection ID 'postgres_terminal' for task execution.
+[2022-07-26 14:24:52,133] {logging_mixin.py:115} INFO - [2022-07-26 14:24:52,132] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 14:24:52,151] {logging_mixin.py:115} INFO - [2022-07-26 14:24:52,150] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 14:24:52,169] {logging_mixin.py:115} INFO - [2022-07-26 14:24:52,169] {dbapi.py:330} INFO - Done loading. Loaded a total of 3 rows
+[2022-07-26 14:24:52,171] {processor.py:651} INFO - DAG(s) dict_keys(['postgres_job']) retrieved from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 14:24:52,195] {logging_mixin.py:115} INFO - [2022-07-26 14:24:52,195] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-26 14:24:52,226] {logging_mixin.py:115} INFO - [2022-07-26 14:24:52,226] {dag.py:2972} INFO - Setting next_dagrun for postgres_job to 2022-05-01T09:34:00+00:00, run_after=2022-05-01T09:35:00+00:00
+[2022-07-26 14:24:52,244] {processor.py:161} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.194 seconds
+[2022-07-26 14:25:22,389] {processor.py:153} INFO - Started process (PID=1523) to work on /opt/airflow/dags/dummy_dag.py
+[2022-07-26 14:25:22,391] {processor.py:641} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2022-07-26 14:25:22,393] {logging_mixin.py:115} INFO - [2022-07-26 14:25:22,392] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 14:25:22,435] {logging_mixin.py:115} INFO - [2022-07-26 14:25:22,434] {base.py:68} INFO - Using connection ID 'postgres_terminal' for task execution.
+[2022-07-26 14:25:22,451] {logging_mixin.py:115} INFO - [2022-07-26 14:25:22,451] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 14:25:22,466] {logging_mixin.py:115} INFO - [2022-07-26 14:25:22,466] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 14:25:22,478] {logging_mixin.py:115} INFO - [2022-07-26 14:25:22,478] {dbapi.py:330} INFO - Done loading. Loaded a total of 3 rows
+[2022-07-26 14:25:22,479] {processor.py:651} INFO - DAG(s) dict_keys(['postgres_job']) retrieved from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 14:25:22,498] {logging_mixin.py:115} INFO - [2022-07-26 14:25:22,498] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-26 14:25:22,525] {logging_mixin.py:115} INFO - [2022-07-26 14:25:22,525] {dag.py:2972} INFO - Setting next_dagrun for postgres_job to 2022-05-01T09:34:00+00:00, run_after=2022-05-01T09:35:00+00:00
+[2022-07-26 14:25:22,540] {processor.py:161} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.156 seconds
+[2022-07-26 14:25:52,688] {processor.py:153} INFO - Started process (PID=1539) to work on /opt/airflow/dags/dummy_dag.py
+[2022-07-26 14:25:52,690] {processor.py:641} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2022-07-26 14:25:52,694] {logging_mixin.py:115} INFO - [2022-07-26 14:25:52,694] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 14:25:52,754] {logging_mixin.py:115} INFO - [2022-07-26 14:25:52,753] {base.py:68} INFO - Using connection ID 'postgres_terminal' for task execution.
+[2022-07-26 14:25:52,775] {logging_mixin.py:115} INFO - [2022-07-26 14:25:52,775] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 14:25:52,792] {logging_mixin.py:115} INFO - [2022-07-26 14:25:52,791] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 14:25:52,819] {logging_mixin.py:115} INFO - [2022-07-26 14:25:52,818] {dbapi.py:330} INFO - Done loading. Loaded a total of 3 rows
+[2022-07-26 14:25:52,824] {processor.py:651} INFO - DAG(s) dict_keys(['postgres_job']) retrieved from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 14:25:52,850] {logging_mixin.py:115} INFO - [2022-07-26 14:25:52,850] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-26 14:25:52,872] {logging_mixin.py:115} INFO - [2022-07-26 14:25:52,872] {dag.py:2972} INFO - Setting next_dagrun for postgres_job to 2022-05-01T09:34:00+00:00, run_after=2022-05-01T09:35:00+00:00
+[2022-07-26 14:25:52,892] {processor.py:161} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.212 seconds
+[2022-07-26 14:26:23,044] {processor.py:153} INFO - Started process (PID=1555) to work on /opt/airflow/dags/dummy_dag.py
+[2022-07-26 14:26:23,047] {processor.py:641} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2022-07-26 14:26:23,048] {logging_mixin.py:115} INFO - [2022-07-26 14:26:23,048] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 14:26:23,086] {logging_mixin.py:115} INFO - [2022-07-26 14:26:23,086] {base.py:68} INFO - Using connection ID 'postgres_terminal' for task execution.
+[2022-07-26 14:26:23,102] {logging_mixin.py:115} INFO - [2022-07-26 14:26:23,102] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 14:26:23,119] {logging_mixin.py:115} INFO - [2022-07-26 14:26:23,119] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 14:26:23,132] {logging_mixin.py:115} INFO - [2022-07-26 14:26:23,131] {dbapi.py:330} INFO - Done loading. Loaded a total of 3 rows
+[2022-07-26 14:26:23,133] {processor.py:651} INFO - DAG(s) dict_keys(['postgres_job']) retrieved from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 14:26:23,152] {logging_mixin.py:115} INFO - [2022-07-26 14:26:23,152] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-26 14:26:23,180] {logging_mixin.py:115} INFO - [2022-07-26 14:26:23,180] {dag.py:2972} INFO - Setting next_dagrun for postgres_job to 2022-05-01T09:34:00+00:00, run_after=2022-05-01T09:35:00+00:00
+[2022-07-26 14:26:23,194] {processor.py:161} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.155 seconds
+[2022-07-26 14:26:53,378] {processor.py:153} INFO - Started process (PID=1571) to work on /opt/airflow/dags/dummy_dag.py
+[2022-07-26 14:26:53,385] {processor.py:641} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2022-07-26 14:26:53,389] {logging_mixin.py:115} INFO - [2022-07-26 14:26:53,389] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 14:26:53,528] {logging_mixin.py:115} INFO - [2022-07-26 14:26:53,527] {base.py:68} INFO - Using connection ID 'postgres_terminal' for task execution.
+[2022-07-26 14:26:53,584] {logging_mixin.py:115} INFO - [2022-07-26 14:26:53,583] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 14:26:53,633] {logging_mixin.py:115} INFO - [2022-07-26 14:26:53,633] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 14:26:53,670] {logging_mixin.py:115} INFO - [2022-07-26 14:26:53,669] {dbapi.py:330} INFO - Done loading. Loaded a total of 3 rows
+[2022-07-26 14:26:53,673] {processor.py:651} INFO - DAG(s) dict_keys(['postgres_job']) retrieved from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 14:26:53,796] {logging_mixin.py:115} INFO - [2022-07-26 14:26:53,796] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-26 14:26:53,898] {logging_mixin.py:115} INFO - [2022-07-26 14:26:53,897] {dag.py:2972} INFO - Setting next_dagrun for postgres_job to 2022-05-01T09:34:00+00:00, run_after=2022-05-01T09:35:00+00:00
+[2022-07-26 14:26:53,937] {processor.py:161} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.576 seconds
+[2022-07-26 14:27:24,294] {processor.py:153} INFO - Started process (PID=1587) to work on /opt/airflow/dags/dummy_dag.py
+[2022-07-26 14:27:24,300] {processor.py:641} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2022-07-26 14:27:24,302] {logging_mixin.py:115} INFO - [2022-07-26 14:27:24,302] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 14:27:24,382] {logging_mixin.py:115} INFO - [2022-07-26 14:27:24,382] {base.py:68} INFO - Using connection ID 'postgres_terminal' for task execution.
+[2022-07-26 14:27:24,396] {logging_mixin.py:115} INFO - [2022-07-26 14:27:24,396] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 14:27:24,415] {logging_mixin.py:115} INFO - [2022-07-26 14:27:24,415] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 14:27:24,437] {logging_mixin.py:115} INFO - [2022-07-26 14:27:24,437] {dbapi.py:330} INFO - Done loading. Loaded a total of 3 rows
+[2022-07-26 14:27:24,438] {processor.py:651} INFO - DAG(s) dict_keys(['postgres_job']) retrieved from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 14:27:24,462] {logging_mixin.py:115} INFO - [2022-07-26 14:27:24,462] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-26 14:27:24,491] {logging_mixin.py:115} INFO - [2022-07-26 14:27:24,491] {dag.py:2972} INFO - Setting next_dagrun for postgres_job to 2022-05-01T09:34:00+00:00, run_after=2022-05-01T09:35:00+00:00
+[2022-07-26 14:27:24,506] {processor.py:161} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.222 seconds
+[2022-07-26 18:17:23,091] {processor.py:153} INFO - Started process (PID=186) to work on /opt/airflow/dags/dummy_dag.py
+[2022-07-26 18:17:23,096] {processor.py:641} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2022-07-26 18:17:23,099] {logging_mixin.py:115} INFO - [2022-07-26 18:17:23,098] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 18:17:23,159] {logging_mixin.py:115} INFO - [2022-07-26 18:17:23,159] {base.py:68} INFO - Using connection ID 'postgres_terminal' for task execution.
+[2022-07-26 18:17:23,178] {logging_mixin.py:115} INFO - [2022-07-26 18:17:23,178] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 18:17:23,207] {logging_mixin.py:115} INFO - [2022-07-26 18:17:23,206] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 18:17:23,237] {logging_mixin.py:115} INFO - [2022-07-26 18:17:23,237] {dbapi.py:330} INFO - Done loading. Loaded a total of 3 rows
+[2022-07-26 18:17:23,240] {processor.py:651} INFO - DAG(s) dict_keys(['postgres_job']) retrieved from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 18:17:23,331] {logging_mixin.py:115} INFO - [2022-07-26 18:17:23,330] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-26 18:17:23,447] {logging_mixin.py:115} INFO - [2022-07-26 18:17:23,446] {dag.py:2972} INFO - Setting next_dagrun for postgres_job to 2022-05-01T09:34:00+00:00, run_after=2022-05-01T09:35:00+00:00
+[2022-07-26 18:17:23,569] {processor.py:161} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.482 seconds
+[2022-07-26 18:17:54,113] {processor.py:153} INFO - Started process (PID=203) to work on /opt/airflow/dags/dummy_dag.py
+[2022-07-26 18:17:54,117] {processor.py:641} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2022-07-26 18:17:54,120] {logging_mixin.py:115} INFO - [2022-07-26 18:17:54,120] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 18:17:54,267] {logging_mixin.py:115} INFO - [2022-07-26 18:17:54,266] {base.py:68} INFO - Using connection ID 'postgres_terminal' for task execution.
+[2022-07-26 18:17:54,301] {logging_mixin.py:115} INFO - [2022-07-26 18:17:54,301] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 18:17:54,354] {logging_mixin.py:115} INFO - [2022-07-26 18:17:54,353] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 18:17:54,389] {logging_mixin.py:115} INFO - [2022-07-26 18:17:54,389] {dbapi.py:330} INFO - Done loading. Loaded a total of 3 rows
+[2022-07-26 18:17:54,391] {processor.py:651} INFO - DAG(s) dict_keys(['postgres_job']) retrieved from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 18:17:54,495] {logging_mixin.py:115} INFO - [2022-07-26 18:17:54,495] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-26 18:17:54,528] {logging_mixin.py:115} INFO - [2022-07-26 18:17:54,528] {dag.py:2972} INFO - Setting next_dagrun for postgres_job to 2022-05-01T09:34:00+00:00, run_after=2022-05-01T09:35:00+00:00
+[2022-07-26 18:17:54,544] {processor.py:161} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.448 seconds
+[2022-07-26 18:18:25,771] {processor.py:153} INFO - Started process (PID=219) to work on /opt/airflow/dags/dummy_dag.py
+[2022-07-26 18:18:25,817] {processor.py:641} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2022-07-26 18:18:25,824] {logging_mixin.py:115} INFO - [2022-07-26 18:18:25,823] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 18:18:26,209] {logging_mixin.py:115} INFO - [2022-07-26 18:18:26,209] {base.py:68} INFO - Using connection ID 'postgres_terminal' for task execution.
+[2022-07-26 18:18:26,304] {logging_mixin.py:115} INFO - [2022-07-26 18:18:26,303] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 18:18:26,358] {logging_mixin.py:115} INFO - [2022-07-26 18:18:26,358] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 18:18:26,408] {logging_mixin.py:115} INFO - [2022-07-26 18:18:26,408] {dbapi.py:330} INFO - Done loading. Loaded a total of 3 rows
+[2022-07-26 18:18:26,415] {processor.py:651} INFO - DAG(s) dict_keys(['postgres_job']) retrieved from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 18:18:26,470] {logging_mixin.py:115} INFO - [2022-07-26 18:18:26,469] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-26 18:18:26,530] {logging_mixin.py:115} INFO - [2022-07-26 18:18:26,530] {dag.py:2972} INFO - Setting next_dagrun for postgres_job to 2022-05-01T09:34:00+00:00, run_after=2022-05-01T09:35:00+00:00
+[2022-07-26 18:18:26,546] {processor.py:161} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.825 seconds
+[2022-07-26 18:18:56,761] {processor.py:153} INFO - Started process (PID=237) to work on /opt/airflow/dags/dummy_dag.py
+[2022-07-26 18:18:56,764] {processor.py:641} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2022-07-26 18:18:56,766] {logging_mixin.py:115} INFO - [2022-07-26 18:18:56,766] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 18:18:56,814] {logging_mixin.py:115} INFO - [2022-07-26 18:18:56,813] {base.py:68} INFO - Using connection ID 'postgres_terminal' for task execution.
+[2022-07-26 18:18:56,828] {logging_mixin.py:115} INFO - [2022-07-26 18:18:56,828] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 18:18:56,847] {logging_mixin.py:115} INFO - [2022-07-26 18:18:56,847] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 18:18:56,862] {logging_mixin.py:115} INFO - [2022-07-26 18:18:56,862] {dbapi.py:330} INFO - Done loading. Loaded a total of 3 rows
+[2022-07-26 18:18:56,865] {processor.py:651} INFO - DAG(s) dict_keys(['postgres_job']) retrieved from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 18:18:56,892] {logging_mixin.py:115} INFO - [2022-07-26 18:18:56,891] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-26 18:18:56,921] {logging_mixin.py:115} INFO - [2022-07-26 18:18:56,920] {dag.py:2972} INFO - Setting next_dagrun for postgres_job to 2022-05-01T09:34:00+00:00, run_after=2022-05-01T09:35:00+00:00
+[2022-07-26 18:18:56,935] {processor.py:161} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.179 seconds
+[2022-07-26 18:19:27,078] {processor.py:153} INFO - Started process (PID=253) to work on /opt/airflow/dags/dummy_dag.py
+[2022-07-26 18:19:27,080] {processor.py:641} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2022-07-26 18:19:27,083] {logging_mixin.py:115} INFO - [2022-07-26 18:19:27,082] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 18:19:27,130] {logging_mixin.py:115} INFO - [2022-07-26 18:19:27,130] {base.py:68} INFO - Using connection ID 'postgres_terminal' for task execution.
+[2022-07-26 18:19:27,147] {logging_mixin.py:115} INFO - [2022-07-26 18:19:27,147] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 18:19:27,170] {logging_mixin.py:115} INFO - [2022-07-26 18:19:27,170] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 18:19:27,184] {logging_mixin.py:115} INFO - [2022-07-26 18:19:27,184] {dbapi.py:330} INFO - Done loading. Loaded a total of 3 rows
+[2022-07-26 18:19:27,186] {processor.py:651} INFO - DAG(s) dict_keys(['postgres_job']) retrieved from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 18:19:27,205] {logging_mixin.py:115} INFO - [2022-07-26 18:19:27,205] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-26 18:19:27,234] {logging_mixin.py:115} INFO - [2022-07-26 18:19:27,233] {dag.py:2972} INFO - Setting next_dagrun for postgres_job to 2022-05-01T09:34:00+00:00, run_after=2022-05-01T09:35:00+00:00
+[2022-07-26 18:19:27,248] {processor.py:161} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.178 seconds
+[2022-07-26 18:19:57,435] {processor.py:153} INFO - Started process (PID=269) to work on /opt/airflow/dags/dummy_dag.py
+[2022-07-26 18:19:57,436] {processor.py:641} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2022-07-26 18:19:57,438] {logging_mixin.py:115} INFO - [2022-07-26 18:19:57,438] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 18:19:57,478] {logging_mixin.py:115} INFO - [2022-07-26 18:19:57,478] {base.py:68} INFO - Using connection ID 'postgres_terminal' for task execution.
+[2022-07-26 18:19:57,496] {logging_mixin.py:115} INFO - [2022-07-26 18:19:57,496] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 18:19:57,513] {logging_mixin.py:115} INFO - [2022-07-26 18:19:57,513] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 18:19:57,527] {logging_mixin.py:115} INFO - [2022-07-26 18:19:57,527] {dbapi.py:330} INFO - Done loading. Loaded a total of 3 rows
+[2022-07-26 18:19:57,528] {processor.py:651} INFO - DAG(s) dict_keys(['postgres_job']) retrieved from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 18:19:57,548] {logging_mixin.py:115} INFO - [2022-07-26 18:19:57,547] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-26 18:19:57,576] {logging_mixin.py:115} INFO - [2022-07-26 18:19:57,576] {dag.py:2972} INFO - Setting next_dagrun for postgres_job to 2022-05-01T09:34:00+00:00, run_after=2022-05-01T09:35:00+00:00
+[2022-07-26 18:19:57,589] {processor.py:161} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.161 seconds
+[2022-07-26 18:20:27,786] {processor.py:153} INFO - Started process (PID=285) to work on /opt/airflow/dags/dummy_dag.py
+[2022-07-26 18:20:27,789] {processor.py:641} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2022-07-26 18:20:27,792] {logging_mixin.py:115} INFO - [2022-07-26 18:20:27,792] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 18:20:27,858] {logging_mixin.py:115} INFO - [2022-07-26 18:20:27,857] {base.py:68} INFO - Using connection ID 'postgres_terminal' for task execution.
+[2022-07-26 18:20:27,924] {logging_mixin.py:115} INFO - [2022-07-26 18:20:27,923] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 18:20:27,973] {logging_mixin.py:115} INFO - [2022-07-26 18:20:27,973] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 18:20:28,000] {logging_mixin.py:115} INFO - [2022-07-26 18:20:28,000] {dbapi.py:330} INFO - Done loading. Loaded a total of 3 rows
+[2022-07-26 18:20:28,002] {processor.py:651} INFO - DAG(s) dict_keys(['postgres_job']) retrieved from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 18:20:28,026] {logging_mixin.py:115} INFO - [2022-07-26 18:20:28,025] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-26 18:20:28,085] {logging_mixin.py:115} INFO - [2022-07-26 18:20:28,085] {dag.py:2972} INFO - Setting next_dagrun for postgres_job to 2022-05-01T09:34:00+00:00, run_after=2022-05-01T09:35:00+00:00
+[2022-07-26 18:20:28,119] {processor.py:161} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.345 seconds
+[2022-07-26 18:20:58,437] {processor.py:153} INFO - Started process (PID=301) to work on /opt/airflow/dags/dummy_dag.py
+[2022-07-26 18:20:58,441] {processor.py:641} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2022-07-26 18:20:58,443] {logging_mixin.py:115} INFO - [2022-07-26 18:20:58,443] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 18:20:58,496] {logging_mixin.py:115} INFO - [2022-07-26 18:20:58,496] {base.py:68} INFO - Using connection ID 'postgres_terminal' for task execution.
+[2022-07-26 18:20:58,514] {logging_mixin.py:115} INFO - [2022-07-26 18:20:58,514] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 18:20:58,530] {logging_mixin.py:115} INFO - [2022-07-26 18:20:58,530] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 18:20:58,545] {logging_mixin.py:115} INFO - [2022-07-26 18:20:58,545] {dbapi.py:330} INFO - Done loading. Loaded a total of 3 rows
+[2022-07-26 18:20:58,547] {processor.py:651} INFO - DAG(s) dict_keys(['postgres_job']) retrieved from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 18:20:58,566] {logging_mixin.py:115} INFO - [2022-07-26 18:20:58,566] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-26 18:20:58,596] {logging_mixin.py:115} INFO - [2022-07-26 18:20:58,596] {dag.py:2972} INFO - Setting next_dagrun for postgres_job to 2022-05-01T09:34:00+00:00, run_after=2022-05-01T09:35:00+00:00
+[2022-07-26 18:20:58,611] {processor.py:161} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.180 seconds
+[2022-07-26 18:21:28,794] {processor.py:153} INFO - Started process (PID=317) to work on /opt/airflow/dags/dummy_dag.py
+[2022-07-26 18:21:28,796] {processor.py:641} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2022-07-26 18:21:28,798] {logging_mixin.py:115} INFO - [2022-07-26 18:21:28,798] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 18:21:28,842] {logging_mixin.py:115} INFO - [2022-07-26 18:21:28,842] {base.py:68} INFO - Using connection ID 'postgres_terminal' for task execution.
+[2022-07-26 18:21:28,858] {logging_mixin.py:115} INFO - [2022-07-26 18:21:28,857] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 18:21:28,880] {logging_mixin.py:115} INFO - [2022-07-26 18:21:28,879] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 18:21:28,896] {logging_mixin.py:115} INFO - [2022-07-26 18:21:28,896] {dbapi.py:330} INFO - Done loading. Loaded a total of 3 rows
+[2022-07-26 18:21:28,898] {processor.py:651} INFO - DAG(s) dict_keys(['postgres_job']) retrieved from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 18:21:28,921] {logging_mixin.py:115} INFO - [2022-07-26 18:21:28,921] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-26 18:21:28,948] {logging_mixin.py:115} INFO - [2022-07-26 18:21:28,948] {dag.py:2972} INFO - Setting next_dagrun for postgres_job to 2022-05-01T09:34:00+00:00, run_after=2022-05-01T09:35:00+00:00
+[2022-07-26 18:21:28,962] {processor.py:161} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.176 seconds
+[2022-07-26 18:36:19,151] {processor.py:153} INFO - Started process (PID=188) to work on /opt/airflow/dags/dummy_dag.py
+[2022-07-26 18:36:19,163] {processor.py:641} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2022-07-26 18:36:19,167] {logging_mixin.py:115} INFO - [2022-07-26 18:36:19,167] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 18:36:19,858] {logging_mixin.py:115} INFO - [2022-07-26 18:36:19,832] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/dummy_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dummy_dag.py", line 15, in <module>
+    src_conn = src.get_conn()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/postgres/hooks/postgres.py", line 86, in get_conn
+    conn = deepcopy(self.connection or self.get_connection(conn_id))
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/hooks/base.py", line 67, in get_connection
+    conn = Connection.get_connection_from_secrets(conn_id)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/connection.py", line 430, in get_connection_from_secrets
+    raise AirflowNotFoundException(f"The conn_id `{conn_id}` isn't defined")
+airflow.exceptions.AirflowNotFoundException: The conn_id `postgres_terminal` isn't defined
+[2022-07-26 18:36:19,862] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 18:36:19,900] {processor.py:161} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.759 seconds
+[2022-07-26 18:36:50,289] {processor.py:153} INFO - Started process (PID=204) to work on /opt/airflow/dags/dummy_dag.py
+[2022-07-26 18:36:50,298] {processor.py:641} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2022-07-26 18:36:50,300] {logging_mixin.py:115} INFO - [2022-07-26 18:36:50,300] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 18:36:50,475] {logging_mixin.py:115} INFO - [2022-07-26 18:36:50,462] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/dummy_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dummy_dag.py", line 15, in <module>
+    src_conn = src.get_conn()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/postgres/hooks/postgres.py", line 86, in get_conn
+    conn = deepcopy(self.connection or self.get_connection(conn_id))
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/hooks/base.py", line 67, in get_connection
+    conn = Connection.get_connection_from_secrets(conn_id)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/connection.py", line 430, in get_connection_from_secrets
+    raise AirflowNotFoundException(f"The conn_id `{conn_id}` isn't defined")
+airflow.exceptions.AirflowNotFoundException: The conn_id `postgres_terminal` isn't defined
+[2022-07-26 18:36:50,480] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 18:36:50,519] {processor.py:161} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.251 seconds
+[2022-07-26 18:37:21,153] {processor.py:153} INFO - Started process (PID=221) to work on /opt/airflow/dags/dummy_dag.py
+[2022-07-26 18:37:21,157] {processor.py:641} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2022-07-26 18:37:21,161] {logging_mixin.py:115} INFO - [2022-07-26 18:37:21,161] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 18:37:21,276] {logging_mixin.py:115} INFO - [2022-07-26 18:37:21,271] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/dummy_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dummy_dag.py", line 15, in <module>
+    src_conn = src.get_conn()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/postgres/hooks/postgres.py", line 86, in get_conn
+    conn = deepcopy(self.connection or self.get_connection(conn_id))
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/hooks/base.py", line 67, in get_connection
+    conn = Connection.get_connection_from_secrets(conn_id)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/connection.py", line 430, in get_connection_from_secrets
+    raise AirflowNotFoundException(f"The conn_id `{conn_id}` isn't defined")
+airflow.exceptions.AirflowNotFoundException: The conn_id `postgres_terminal` isn't defined
+[2022-07-26 18:37:21,278] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 18:37:21,294] {processor.py:161} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.167 seconds
+[2022-07-26 18:37:51,452] {processor.py:153} INFO - Started process (PID=238) to work on /opt/airflow/dags/dummy_dag.py
+[2022-07-26 18:37:51,454] {processor.py:641} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2022-07-26 18:37:51,455] {logging_mixin.py:115} INFO - [2022-07-26 18:37:51,455] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 18:37:51,517] {logging_mixin.py:115} INFO - [2022-07-26 18:37:51,517] {base.py:68} INFO - Using connection ID 'postgres_terminal' for task execution.
+[2022-07-26 18:37:51,555] {logging_mixin.py:115} INFO - [2022-07-26 18:37:51,549] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/dummy_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dummy_dag.py", line 17, in <module>
+    dest_conn = dest.get_conn()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/postgres/hooks/postgres.py", line 86, in get_conn
+    conn = deepcopy(self.connection or self.get_connection(conn_id))
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/hooks/base.py", line 67, in get_connection
+    conn = Connection.get_connection_from_secrets(conn_id)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/connection.py", line 430, in get_connection_from_secrets
+    raise AirflowNotFoundException(f"The conn_id `{conn_id}` isn't defined")
+airflow.exceptions.AirflowNotFoundException: The conn_id `postgres_results` isn't defined
+[2022-07-26 18:37:51,558] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 18:37:51,589] {processor.py:161} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.144 seconds
+[2022-07-26 18:38:21,789] {processor.py:153} INFO - Started process (PID=254) to work on /opt/airflow/dags/dummy_dag.py
+[2022-07-26 18:38:21,791] {processor.py:641} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2022-07-26 18:38:21,793] {logging_mixin.py:115} INFO - [2022-07-26 18:38:21,793] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 18:38:21,840] {logging_mixin.py:115} INFO - [2022-07-26 18:38:21,840] {base.py:68} INFO - Using connection ID 'postgres_terminal' for task execution.
+[2022-07-26 18:38:21,859] {logging_mixin.py:115} INFO - [2022-07-26 18:38:21,857] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/dummy_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dummy_dag.py", line 17, in <module>
+    dest_conn = dest.get_conn()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/postgres/hooks/postgres.py", line 86, in get_conn
+    conn = deepcopy(self.connection or self.get_connection(conn_id))
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/hooks/base.py", line 67, in get_connection
+    conn = Connection.get_connection_from_secrets(conn_id)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/connection.py", line 430, in get_connection_from_secrets
+    raise AirflowNotFoundException(f"The conn_id `{conn_id}` isn't defined")
+airflow.exceptions.AirflowNotFoundException: The conn_id `postgres_results` isn't defined
+[2022-07-26 18:38:21,861] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 18:38:21,874] {processor.py:161} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.095 seconds
+[2022-07-26 18:38:52,032] {processor.py:153} INFO - Started process (PID=270) to work on /opt/airflow/dags/dummy_dag.py
+[2022-07-26 18:38:52,034] {processor.py:641} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2022-07-26 18:38:52,035] {logging_mixin.py:115} INFO - [2022-07-26 18:38:52,035] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 18:38:52,095] {logging_mixin.py:115} INFO - [2022-07-26 18:38:52,095] {base.py:68} INFO - Using connection ID 'postgres_terminal' for task execution.
+[2022-07-26 18:38:52,109] {logging_mixin.py:115} INFO - [2022-07-26 18:38:52,109] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 18:38:52,134] {logging_mixin.py:115} INFO - [2022-07-26 18:38:52,134] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 18:38:52,164] {logging_mixin.py:115} INFO - [2022-07-26 18:38:52,164] {dbapi.py:330} INFO - Done loading. Loaded a total of 3 rows
+[2022-07-26 18:38:52,166] {processor.py:651} INFO - DAG(s) dict_keys(['postgres_job']) retrieved from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 18:38:52,259] {logging_mixin.py:115} INFO - [2022-07-26 18:38:52,259] {manager.py:508} INFO - Created Permission View: can delete on DAG:postgres_job
+[2022-07-26 18:38:52,271] {logging_mixin.py:115} INFO - [2022-07-26 18:38:52,271] {manager.py:508} INFO - Created Permission View: can read on DAG:postgres_job
+[2022-07-26 18:38:52,284] {logging_mixin.py:115} INFO - [2022-07-26 18:38:52,284] {manager.py:508} INFO - Created Permission View: can edit on DAG:postgres_job
+[2022-07-26 18:38:52,285] {logging_mixin.py:115} INFO - [2022-07-26 18:38:52,285] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-26 18:38:52,299] {logging_mixin.py:115} INFO - [2022-07-26 18:38:52,298] {dag.py:2439} INFO - Creating ORM DAG for postgres_job
+[2022-07-26 18:38:52,312] {logging_mixin.py:115} INFO - [2022-07-26 18:38:52,312] {dag.py:2972} INFO - Setting next_dagrun for postgres_job to 2022-05-01T00:00:00+00:00, run_after=2022-05-01T00:01:00+00:00
+[2022-07-26 18:38:52,329] {processor.py:161} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.304 seconds
+[2022-07-26 18:39:22,490] {processor.py:153} INFO - Started process (PID=286) to work on /opt/airflow/dags/dummy_dag.py
+[2022-07-26 18:39:22,492] {processor.py:641} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2022-07-26 18:39:22,494] {logging_mixin.py:115} INFO - [2022-07-26 18:39:22,494] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 18:39:22,559] {logging_mixin.py:115} INFO - [2022-07-26 18:39:22,559] {base.py:68} INFO - Using connection ID 'postgres_terminal' for task execution.
+[2022-07-26 18:39:22,578] {logging_mixin.py:115} INFO - [2022-07-26 18:39:22,577] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 18:39:22,598] {logging_mixin.py:115} INFO - [2022-07-26 18:39:22,597] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 18:39:22,618] {logging_mixin.py:115} INFO - [2022-07-26 18:39:22,618] {dbapi.py:330} INFO - Done loading. Loaded a total of 3 rows
+[2022-07-26 18:39:22,620] {processor.py:651} INFO - DAG(s) dict_keys(['postgres_job']) retrieved from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 18:39:22,650] {logging_mixin.py:115} INFO - [2022-07-26 18:39:22,650] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-26 18:39:22,693] {logging_mixin.py:115} INFO - [2022-07-26 18:39:22,693] {dag.py:2972} INFO - Setting next_dagrun for postgres_job to 2022-05-01T00:00:00+00:00, run_after=2022-05-01T00:01:00+00:00
+[2022-07-26 18:39:22,712] {processor.py:161} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.231 seconds
+[2022-07-26 18:39:52,870] {processor.py:153} INFO - Started process (PID=301) to work on /opt/airflow/dags/dummy_dag.py
+[2022-07-26 18:39:52,873] {processor.py:641} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2022-07-26 18:39:52,877] {logging_mixin.py:115} INFO - [2022-07-26 18:39:52,877] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 18:39:52,936] {logging_mixin.py:115} INFO - [2022-07-26 18:39:52,936] {base.py:68} INFO - Using connection ID 'postgres_terminal' for task execution.
+[2022-07-26 18:39:52,955] {logging_mixin.py:115} INFO - [2022-07-26 18:39:52,955] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 18:39:52,972] {logging_mixin.py:115} INFO - [2022-07-26 18:39:52,972] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 18:39:52,985] {logging_mixin.py:115} INFO - [2022-07-26 18:39:52,985] {dbapi.py:330} INFO - Done loading. Loaded a total of 3 rows
+[2022-07-26 18:39:52,988] {processor.py:651} INFO - DAG(s) dict_keys(['postgres_job']) retrieved from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 18:39:53,010] {logging_mixin.py:115} INFO - [2022-07-26 18:39:53,010] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-26 18:39:53,044] {logging_mixin.py:115} INFO - [2022-07-26 18:39:53,044] {dag.py:2972} INFO - Setting next_dagrun for postgres_job to 2022-05-01T00:00:00+00:00, run_after=2022-05-01T00:01:00+00:00
+[2022-07-26 18:39:53,060] {processor.py:161} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.196 seconds
+[2022-07-26 18:40:23,215] {processor.py:153} INFO - Started process (PID=318) to work on /opt/airflow/dags/dummy_dag.py
+[2022-07-26 18:40:23,217] {processor.py:641} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2022-07-26 18:40:23,219] {logging_mixin.py:115} INFO - [2022-07-26 18:40:23,219] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 18:40:23,266] {logging_mixin.py:115} INFO - [2022-07-26 18:40:23,266] {base.py:68} INFO - Using connection ID 'postgres_terminal' for task execution.
+[2022-07-26 18:40:23,282] {logging_mixin.py:115} INFO - [2022-07-26 18:40:23,282] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 18:40:23,297] {logging_mixin.py:115} INFO - [2022-07-26 18:40:23,297] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 18:40:23,314] {logging_mixin.py:115} INFO - [2022-07-26 18:40:23,314] {dbapi.py:330} INFO - Done loading. Loaded a total of 3 rows
+[2022-07-26 18:40:23,316] {processor.py:651} INFO - DAG(s) dict_keys(['postgres_job']) retrieved from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 18:40:23,336] {logging_mixin.py:115} INFO - [2022-07-26 18:40:23,336] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-26 18:40:23,365] {logging_mixin.py:115} INFO - [2022-07-26 18:40:23,365] {dag.py:2972} INFO - Setting next_dagrun for postgres_job to 2022-05-01T00:00:00+00:00, run_after=2022-05-01T00:01:00+00:00
+[2022-07-26 18:40:23,381] {processor.py:161} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.172 seconds
+[2022-07-26 18:40:53,603] {processor.py:153} INFO - Started process (PID=334) to work on /opt/airflow/dags/dummy_dag.py
+[2022-07-26 18:40:53,607] {processor.py:641} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2022-07-26 18:40:53,610] {logging_mixin.py:115} INFO - [2022-07-26 18:40:53,610] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 18:40:53,691] {logging_mixin.py:115} INFO - [2022-07-26 18:40:53,690] {base.py:68} INFO - Using connection ID 'postgres_terminal' for task execution.
+[2022-07-26 18:40:53,722] {logging_mixin.py:115} INFO - [2022-07-26 18:40:53,722] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 18:40:53,749] {logging_mixin.py:115} INFO - [2022-07-26 18:40:53,749] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 18:40:53,763] {logging_mixin.py:115} INFO - [2022-07-26 18:40:53,763] {dbapi.py:330} INFO - Done loading. Loaded a total of 3 rows
+[2022-07-26 18:40:53,765] {processor.py:651} INFO - DAG(s) dict_keys(['postgres_job']) retrieved from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 18:40:53,787] {logging_mixin.py:115} INFO - [2022-07-26 18:40:53,787] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-26 18:40:53,816] {logging_mixin.py:115} INFO - [2022-07-26 18:40:53,816] {dag.py:2972} INFO - Setting next_dagrun for postgres_job to 2022-05-01T00:00:00+00:00, run_after=2022-05-01T00:01:00+00:00
+[2022-07-26 18:40:53,832] {processor.py:161} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.236 seconds
+[2022-07-26 18:41:24,048] {processor.py:153} INFO - Started process (PID=350) to work on /opt/airflow/dags/dummy_dag.py
+[2022-07-26 18:41:24,050] {processor.py:641} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2022-07-26 18:41:24,051] {logging_mixin.py:115} INFO - [2022-07-26 18:41:24,051] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 18:41:24,104] {logging_mixin.py:115} INFO - [2022-07-26 18:41:24,104] {base.py:68} INFO - Using connection ID 'postgres_terminal' for task execution.
+[2022-07-26 18:41:24,122] {logging_mixin.py:115} INFO - [2022-07-26 18:41:24,122] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 18:41:24,138] {logging_mixin.py:115} INFO - [2022-07-26 18:41:24,138] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 18:41:24,155] {logging_mixin.py:115} INFO - [2022-07-26 18:41:24,155] {dbapi.py:330} INFO - Done loading. Loaded a total of 3 rows
+[2022-07-26 18:41:24,156] {processor.py:651} INFO - DAG(s) dict_keys(['postgres_job']) retrieved from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 18:41:24,177] {logging_mixin.py:115} INFO - [2022-07-26 18:41:24,177] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-26 18:41:24,206] {logging_mixin.py:115} INFO - [2022-07-26 18:41:24,206] {dag.py:2972} INFO - Setting next_dagrun for postgres_job to 2022-05-01T00:00:00+00:00, run_after=2022-05-01T00:01:00+00:00
+[2022-07-26 18:41:24,221] {processor.py:161} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.179 seconds
+[2022-07-26 18:41:54,393] {processor.py:153} INFO - Started process (PID=366) to work on /opt/airflow/dags/dummy_dag.py
+[2022-07-26 18:41:54,395] {processor.py:641} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2022-07-26 18:41:54,396] {logging_mixin.py:115} INFO - [2022-07-26 18:41:54,396] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 18:41:54,438] {logging_mixin.py:115} INFO - [2022-07-26 18:41:54,438] {base.py:68} INFO - Using connection ID 'postgres_terminal' for task execution.
+[2022-07-26 18:41:54,456] {logging_mixin.py:115} INFO - [2022-07-26 18:41:54,456] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 18:41:54,475] {logging_mixin.py:115} INFO - [2022-07-26 18:41:54,475] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 18:41:54,490] {logging_mixin.py:115} INFO - [2022-07-26 18:41:54,490] {dbapi.py:330} INFO - Done loading. Loaded a total of 3 rows
+[2022-07-26 18:41:54,494] {processor.py:651} INFO - DAG(s) dict_keys(['postgres_job']) retrieved from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 18:41:54,514] {logging_mixin.py:115} INFO - [2022-07-26 18:41:54,513] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-26 18:41:54,544] {logging_mixin.py:115} INFO - [2022-07-26 18:41:54,544] {dag.py:2972} INFO - Setting next_dagrun for postgres_job to 2022-05-01T00:00:00+00:00, run_after=2022-05-01T00:01:00+00:00
+[2022-07-26 18:41:54,558] {processor.py:161} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.170 seconds
+[2022-07-26 18:42:24,712] {processor.py:153} INFO - Started process (PID=382) to work on /opt/airflow/dags/dummy_dag.py
+[2022-07-26 18:42:24,714] {processor.py:641} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2022-07-26 18:42:24,716] {logging_mixin.py:115} INFO - [2022-07-26 18:42:24,715] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 18:42:24,763] {logging_mixin.py:115} INFO - [2022-07-26 18:42:24,763] {base.py:68} INFO - Using connection ID 'postgres_terminal' for task execution.
+[2022-07-26 18:42:24,779] {logging_mixin.py:115} INFO - [2022-07-26 18:42:24,779] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 18:42:24,795] {logging_mixin.py:115} INFO - [2022-07-26 18:42:24,795] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 18:42:24,809] {logging_mixin.py:115} INFO - [2022-07-26 18:42:24,809] {dbapi.py:330} INFO - Done loading. Loaded a total of 3 rows
+[2022-07-26 18:42:24,812] {processor.py:651} INFO - DAG(s) dict_keys(['postgres_job']) retrieved from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 18:42:24,833] {logging_mixin.py:115} INFO - [2022-07-26 18:42:24,833] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-26 18:42:24,860] {logging_mixin.py:115} INFO - [2022-07-26 18:42:24,860] {dag.py:2972} INFO - Setting next_dagrun for postgres_job to 2022-05-01T00:00:00+00:00, run_after=2022-05-01T00:01:00+00:00
+[2022-07-26 18:42:24,872] {processor.py:161} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.164 seconds
+[2022-07-26 18:42:55,035] {processor.py:153} INFO - Started process (PID=398) to work on /opt/airflow/dags/dummy_dag.py
+[2022-07-26 18:42:55,037] {processor.py:641} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2022-07-26 18:42:55,039] {logging_mixin.py:115} INFO - [2022-07-26 18:42:55,039] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 18:42:55,081] {logging_mixin.py:115} INFO - [2022-07-26 18:42:55,081] {base.py:68} INFO - Using connection ID 'postgres_terminal' for task execution.
+[2022-07-26 18:42:55,099] {logging_mixin.py:115} INFO - [2022-07-26 18:42:55,099] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 18:42:55,114] {logging_mixin.py:115} INFO - [2022-07-26 18:42:55,114] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 18:42:55,133] {logging_mixin.py:115} INFO - [2022-07-26 18:42:55,133] {dbapi.py:330} INFO - Done loading. Loaded a total of 3 rows
+[2022-07-26 18:42:55,134] {processor.py:651} INFO - DAG(s) dict_keys(['postgres_job']) retrieved from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 18:42:55,154] {logging_mixin.py:115} INFO - [2022-07-26 18:42:55,153] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-26 18:42:55,184] {logging_mixin.py:115} INFO - [2022-07-26 18:42:55,184] {dag.py:2972} INFO - Setting next_dagrun for postgres_job to 2022-05-01T00:00:00+00:00, run_after=2022-05-01T00:01:00+00:00
+[2022-07-26 18:42:55,199] {processor.py:161} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.169 seconds
+[2022-07-26 18:43:25,331] {processor.py:153} INFO - Started process (PID=414) to work on /opt/airflow/dags/dummy_dag.py
+[2022-07-26 18:43:25,333] {processor.py:641} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2022-07-26 18:43:25,334] {logging_mixin.py:115} INFO - [2022-07-26 18:43:25,334] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 18:43:25,382] {logging_mixin.py:115} INFO - [2022-07-26 18:43:25,382] {base.py:68} INFO - Using connection ID 'postgres_terminal' for task execution.
+[2022-07-26 18:43:25,397] {logging_mixin.py:115} INFO - [2022-07-26 18:43:25,397] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 18:43:25,414] {logging_mixin.py:115} INFO - [2022-07-26 18:43:25,414] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 18:43:25,430] {logging_mixin.py:115} INFO - [2022-07-26 18:43:25,429] {dbapi.py:330} INFO - Done loading. Loaded a total of 3 rows
+[2022-07-26 18:43:25,431] {processor.py:651} INFO - DAG(s) dict_keys(['postgres_job']) retrieved from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 18:43:25,459] {logging_mixin.py:115} INFO - [2022-07-26 18:43:25,459] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-26 18:43:25,490] {logging_mixin.py:115} INFO - [2022-07-26 18:43:25,490] {dag.py:2972} INFO - Setting next_dagrun for postgres_job to 2022-05-01T00:00:00+00:00, run_after=2022-05-01T00:01:00+00:00
+[2022-07-26 18:43:25,503] {processor.py:161} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.177 seconds
+[2022-07-26 18:43:55,649] {processor.py:153} INFO - Started process (PID=430) to work on /opt/airflow/dags/dummy_dag.py
+[2022-07-26 18:43:55,652] {processor.py:641} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2022-07-26 18:43:55,653] {logging_mixin.py:115} INFO - [2022-07-26 18:43:55,653] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 18:43:55,695] {logging_mixin.py:115} INFO - [2022-07-26 18:43:55,695] {base.py:68} INFO - Using connection ID 'postgres_terminal' for task execution.
+[2022-07-26 18:43:55,710] {logging_mixin.py:115} INFO - [2022-07-26 18:43:55,710] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 18:43:55,726] {logging_mixin.py:115} INFO - [2022-07-26 18:43:55,726] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 18:43:55,738] {logging_mixin.py:115} INFO - [2022-07-26 18:43:55,738] {dbapi.py:330} INFO - Done loading. Loaded a total of 3 rows
+[2022-07-26 18:43:55,740] {processor.py:651} INFO - DAG(s) dict_keys(['postgres_job']) retrieved from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 18:43:55,764] {logging_mixin.py:115} INFO - [2022-07-26 18:43:55,764] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-26 18:43:55,794] {logging_mixin.py:115} INFO - [2022-07-26 18:43:55,794] {dag.py:2972} INFO - Setting next_dagrun for postgres_job to 2022-05-01T00:00:00+00:00, run_after=2022-05-01T00:01:00+00:00
+[2022-07-26 18:43:55,811] {processor.py:161} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.167 seconds
+[2022-07-26 18:44:25,962] {processor.py:153} INFO - Started process (PID=446) to work on /opt/airflow/dags/dummy_dag.py
+[2022-07-26 18:44:25,964] {processor.py:641} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2022-07-26 18:44:25,965] {logging_mixin.py:115} INFO - [2022-07-26 18:44:25,965] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 18:44:26,021] {logging_mixin.py:115} INFO - [2022-07-26 18:44:26,020] {base.py:68} INFO - Using connection ID 'postgres_terminal' for task execution.
+[2022-07-26 18:44:26,037] {logging_mixin.py:115} INFO - [2022-07-26 18:44:26,037] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 18:44:26,099] {logging_mixin.py:115} INFO - [2022-07-26 18:44:26,099] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 18:44:26,115] {logging_mixin.py:115} INFO - [2022-07-26 18:44:26,114] {dbapi.py:330} INFO - Done loading. Loaded a total of 3 rows
+[2022-07-26 18:44:26,116] {processor.py:651} INFO - DAG(s) dict_keys(['postgres_job']) retrieved from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 18:44:26,145] {logging_mixin.py:115} INFO - [2022-07-26 18:44:26,145] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-26 18:44:26,187] {logging_mixin.py:115} INFO - [2022-07-26 18:44:26,187] {dag.py:2972} INFO - Setting next_dagrun for postgres_job to 2022-05-01T00:00:00+00:00, run_after=2022-05-01T00:01:00+00:00
+[2022-07-26 18:44:26,204] {processor.py:161} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.247 seconds
+[2022-07-26 18:44:56,387] {processor.py:153} INFO - Started process (PID=461) to work on /opt/airflow/dags/dummy_dag.py
+[2022-07-26 18:44:56,392] {processor.py:641} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2022-07-26 18:44:56,395] {logging_mixin.py:115} INFO - [2022-07-26 18:44:56,394] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 18:44:56,468] {logging_mixin.py:115} INFO - [2022-07-26 18:44:56,467] {base.py:68} INFO - Using connection ID 'postgres_terminal' for task execution.
+[2022-07-26 18:44:56,496] {logging_mixin.py:115} INFO - [2022-07-26 18:44:56,496] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 18:44:56,534] {logging_mixin.py:115} INFO - [2022-07-26 18:44:56,533] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 18:44:56,562] {logging_mixin.py:115} INFO - [2022-07-26 18:44:56,562] {dbapi.py:330} INFO - Done loading. Loaded a total of 3 rows
+[2022-07-26 18:44:56,564] {processor.py:651} INFO - DAG(s) dict_keys(['postgres_job']) retrieved from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 18:44:56,595] {logging_mixin.py:115} INFO - [2022-07-26 18:44:56,594] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-26 18:44:56,636] {logging_mixin.py:115} INFO - [2022-07-26 18:44:56,636] {dag.py:2972} INFO - Setting next_dagrun for postgres_job to 2022-05-01T00:00:00+00:00, run_after=2022-05-01T00:01:00+00:00
+[2022-07-26 18:44:56,654] {processor.py:161} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.282 seconds
+[2022-07-26 18:45:26,831] {processor.py:153} INFO - Started process (PID=478) to work on /opt/airflow/dags/dummy_dag.py
+[2022-07-26 18:45:26,833] {processor.py:641} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2022-07-26 18:45:26,835] {logging_mixin.py:115} INFO - [2022-07-26 18:45:26,835] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 18:45:26,877] {logging_mixin.py:115} INFO - [2022-07-26 18:45:26,877] {base.py:68} INFO - Using connection ID 'postgres_terminal' for task execution.
+[2022-07-26 18:45:26,890] {logging_mixin.py:115} INFO - [2022-07-26 18:45:26,890] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 18:45:26,904] {logging_mixin.py:115} INFO - [2022-07-26 18:45:26,904] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 18:45:26,917] {logging_mixin.py:115} INFO - [2022-07-26 18:45:26,917] {dbapi.py:330} INFO - Done loading. Loaded a total of 3 rows
+[2022-07-26 18:45:26,918] {processor.py:651} INFO - DAG(s) dict_keys(['postgres_job']) retrieved from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 18:45:26,939] {logging_mixin.py:115} INFO - [2022-07-26 18:45:26,939] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-26 18:45:26,969] {logging_mixin.py:115} INFO - [2022-07-26 18:45:26,969] {dag.py:2972} INFO - Setting next_dagrun for postgres_job to 2022-05-01T00:00:00+00:00, run_after=2022-05-01T00:01:00+00:00
+[2022-07-26 18:45:26,983] {processor.py:161} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.157 seconds
+[2022-07-26 18:45:57,143] {processor.py:153} INFO - Started process (PID=494) to work on /opt/airflow/dags/dummy_dag.py
+[2022-07-26 18:45:57,144] {processor.py:641} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2022-07-26 18:45:57,146] {logging_mixin.py:115} INFO - [2022-07-26 18:45:57,146] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 18:45:57,209] {logging_mixin.py:115} INFO - [2022-07-26 18:45:57,209] {base.py:68} INFO - Using connection ID 'postgres_terminal' for task execution.
+[2022-07-26 18:45:57,227] {logging_mixin.py:115} INFO - [2022-07-26 18:45:57,227] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 18:45:57,249] {logging_mixin.py:115} INFO - [2022-07-26 18:45:57,249] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 18:45:57,269] {logging_mixin.py:115} INFO - [2022-07-26 18:45:57,268] {dbapi.py:330} INFO - Done loading. Loaded a total of 3 rows
+[2022-07-26 18:45:57,270] {processor.py:651} INFO - DAG(s) dict_keys(['postgres_job']) retrieved from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 18:45:57,300] {logging_mixin.py:115} INFO - [2022-07-26 18:45:57,300] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-26 18:45:57,334] {logging_mixin.py:115} INFO - [2022-07-26 18:45:57,334] {dag.py:2972} INFO - Setting next_dagrun for postgres_job to 2022-05-01T00:00:00+00:00, run_after=2022-05-01T00:01:00+00:00
+[2022-07-26 18:45:57,347] {processor.py:161} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.210 seconds
+[2022-07-26 18:46:27,756] {processor.py:153} INFO - Started process (PID=510) to work on /opt/airflow/dags/dummy_dag.py
+[2022-07-26 18:46:27,758] {processor.py:641} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2022-07-26 18:46:27,759] {logging_mixin.py:115} INFO - [2022-07-26 18:46:27,759] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 18:46:27,803] {logging_mixin.py:115} INFO - [2022-07-26 18:46:27,803] {base.py:68} INFO - Using connection ID 'postgres_terminal' for task execution.
+[2022-07-26 18:46:27,826] {logging_mixin.py:115} INFO - [2022-07-26 18:46:27,825] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 18:46:27,842] {logging_mixin.py:115} INFO - [2022-07-26 18:46:27,842] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 18:46:27,859] {logging_mixin.py:115} INFO - [2022-07-26 18:46:27,854] {dbapi.py:330} INFO - Done loading. Loaded a total of 3 rows
+[2022-07-26 18:46:27,861] {processor.py:651} INFO - DAG(s) dict_keys(['postgres_job']) retrieved from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 18:46:27,882] {logging_mixin.py:115} INFO - [2022-07-26 18:46:27,882] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-26 18:46:27,923] {logging_mixin.py:115} INFO - [2022-07-26 18:46:27,923] {dag.py:2972} INFO - Setting next_dagrun for postgres_job to 2022-05-01T00:00:00+00:00, run_after=2022-05-01T00:01:00+00:00
+[2022-07-26 18:46:27,936] {processor.py:161} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.184 seconds
+[2022-07-26 18:46:58,110] {processor.py:153} INFO - Started process (PID=526) to work on /opt/airflow/dags/dummy_dag.py
+[2022-07-26 18:46:58,112] {processor.py:641} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2022-07-26 18:46:58,114] {logging_mixin.py:115} INFO - [2022-07-26 18:46:58,114] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 18:46:58,158] {logging_mixin.py:115} INFO - [2022-07-26 18:46:58,158] {base.py:68} INFO - Using connection ID 'postgres_terminal' for task execution.
+[2022-07-26 18:46:58,176] {logging_mixin.py:115} INFO - [2022-07-26 18:46:58,176] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 18:46:58,191] {logging_mixin.py:115} INFO - [2022-07-26 18:46:58,191] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 18:46:58,202] {logging_mixin.py:115} INFO - [2022-07-26 18:46:58,202] {dbapi.py:330} INFO - Done loading. Loaded a total of 3 rows
+[2022-07-26 18:46:58,206] {processor.py:651} INFO - DAG(s) dict_keys(['postgres_job']) retrieved from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 18:46:58,227] {logging_mixin.py:115} INFO - [2022-07-26 18:46:58,226] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-26 18:46:58,256] {logging_mixin.py:115} INFO - [2022-07-26 18:46:58,256] {dag.py:2972} INFO - Setting next_dagrun for postgres_job to 2022-05-01T00:00:00+00:00, run_after=2022-05-01T00:01:00+00:00
+[2022-07-26 18:46:58,271] {processor.py:161} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.164 seconds
+[2022-07-26 18:47:28,440] {processor.py:153} INFO - Started process (PID=542) to work on /opt/airflow/dags/dummy_dag.py
+[2022-07-26 18:47:28,443] {processor.py:641} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2022-07-26 18:47:28,445] {logging_mixin.py:115} INFO - [2022-07-26 18:47:28,445] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 18:47:28,498] {logging_mixin.py:115} INFO - [2022-07-26 18:47:28,498] {base.py:68} INFO - Using connection ID 'postgres_terminal' for task execution.
+[2022-07-26 18:47:28,515] {logging_mixin.py:115} INFO - [2022-07-26 18:47:28,515] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 18:47:28,535] {logging_mixin.py:115} INFO - [2022-07-26 18:47:28,535] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 18:47:28,555] {logging_mixin.py:115} INFO - [2022-07-26 18:47:28,555] {dbapi.py:330} INFO - Done loading. Loaded a total of 3 rows
+[2022-07-26 18:47:28,558] {processor.py:651} INFO - DAG(s) dict_keys(['postgres_job']) retrieved from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 18:47:28,583] {logging_mixin.py:115} INFO - [2022-07-26 18:47:28,583] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-26 18:47:28,630] {logging_mixin.py:115} INFO - [2022-07-26 18:47:28,630] {dag.py:2972} INFO - Setting next_dagrun for postgres_job to 2022-05-01T00:00:00+00:00, run_after=2022-05-01T00:01:00+00:00
+[2022-07-26 18:47:28,654] {processor.py:161} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.222 seconds
+[2022-07-26 18:47:58,822] {processor.py:153} INFO - Started process (PID=558) to work on /opt/airflow/dags/dummy_dag.py
+[2022-07-26 18:47:58,824] {processor.py:641} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2022-07-26 18:47:58,826] {logging_mixin.py:115} INFO - [2022-07-26 18:47:58,826] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 18:47:58,874] {logging_mixin.py:115} INFO - [2022-07-26 18:47:58,874] {base.py:68} INFO - Using connection ID 'postgres_terminal' for task execution.
+[2022-07-26 18:47:58,889] {logging_mixin.py:115} INFO - [2022-07-26 18:47:58,889] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 18:47:58,913] {logging_mixin.py:115} INFO - [2022-07-26 18:47:58,913] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 18:47:58,934] {logging_mixin.py:115} INFO - [2022-07-26 18:47:58,934] {dbapi.py:330} INFO - Done loading. Loaded a total of 3 rows
+[2022-07-26 18:47:58,936] {processor.py:651} INFO - DAG(s) dict_keys(['postgres_job']) retrieved from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 18:47:58,957] {logging_mixin.py:115} INFO - [2022-07-26 18:47:58,957] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-26 18:47:58,994] {logging_mixin.py:115} INFO - [2022-07-26 18:47:58,993] {dag.py:2972} INFO - Setting next_dagrun for postgres_job to 2022-05-01T00:00:00+00:00, run_after=2022-05-01T00:01:00+00:00
+[2022-07-26 18:47:59,008] {processor.py:161} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.193 seconds
+[2022-07-26 18:48:29,143] {processor.py:153} INFO - Started process (PID=574) to work on /opt/airflow/dags/dummy_dag.py
+[2022-07-26 18:48:29,145] {processor.py:641} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2022-07-26 18:48:29,146] {logging_mixin.py:115} INFO - [2022-07-26 18:48:29,146] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 18:48:29,207] {logging_mixin.py:115} INFO - [2022-07-26 18:48:29,207] {base.py:68} INFO - Using connection ID 'postgres_terminal' for task execution.
+[2022-07-26 18:48:29,230] {logging_mixin.py:115} INFO - [2022-07-26 18:48:29,230] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 18:48:29,253] {logging_mixin.py:115} INFO - [2022-07-26 18:48:29,253] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 18:48:29,274] {logging_mixin.py:115} INFO - [2022-07-26 18:48:29,274] {dbapi.py:330} INFO - Done loading. Loaded a total of 3 rows
+[2022-07-26 18:48:29,277] {processor.py:651} INFO - DAG(s) dict_keys(['postgres_job']) retrieved from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 18:48:29,304] {logging_mixin.py:115} INFO - [2022-07-26 18:48:29,304] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-26 18:48:29,341] {logging_mixin.py:115} INFO - [2022-07-26 18:48:29,341] {dag.py:2972} INFO - Setting next_dagrun for postgres_job to 2022-05-01T00:00:00+00:00, run_after=2022-05-01T00:01:00+00:00
+[2022-07-26 18:48:29,356] {processor.py:161} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.222 seconds
+[2022-07-26 18:48:59,491] {processor.py:153} INFO - Started process (PID=590) to work on /opt/airflow/dags/dummy_dag.py
+[2022-07-26 18:48:59,493] {processor.py:641} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2022-07-26 18:48:59,495] {logging_mixin.py:115} INFO - [2022-07-26 18:48:59,495] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 18:48:59,543] {logging_mixin.py:115} INFO - [2022-07-26 18:48:59,543] {base.py:68} INFO - Using connection ID 'postgres_terminal' for task execution.
+[2022-07-26 18:48:59,561] {logging_mixin.py:115} INFO - [2022-07-26 18:48:59,560] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 18:48:59,576] {logging_mixin.py:115} INFO - [2022-07-26 18:48:59,576] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 18:48:59,596] {logging_mixin.py:115} INFO - [2022-07-26 18:48:59,596] {dbapi.py:330} INFO - Done loading. Loaded a total of 3 rows
+[2022-07-26 18:48:59,597] {processor.py:651} INFO - DAG(s) dict_keys(['postgres_job']) retrieved from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 18:48:59,618] {logging_mixin.py:115} INFO - [2022-07-26 18:48:59,618] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-26 18:48:59,644] {logging_mixin.py:115} INFO - [2022-07-26 18:48:59,644] {dag.py:2972} INFO - Setting next_dagrun for postgres_job to 2022-05-01T00:00:00+00:00, run_after=2022-05-01T00:01:00+00:00
+[2022-07-26 18:48:59,659] {processor.py:161} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.172 seconds
+[2022-07-26 18:49:29,789] {processor.py:153} INFO - Started process (PID=606) to work on /opt/airflow/dags/dummy_dag.py
+[2022-07-26 18:49:29,791] {processor.py:641} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2022-07-26 18:49:29,793] {logging_mixin.py:115} INFO - [2022-07-26 18:49:29,792] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 18:49:29,836] {logging_mixin.py:115} INFO - [2022-07-26 18:49:29,836] {base.py:68} INFO - Using connection ID 'postgres_terminal' for task execution.
+[2022-07-26 18:49:29,850] {logging_mixin.py:115} INFO - [2022-07-26 18:49:29,850] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 18:49:29,867] {logging_mixin.py:115} INFO - [2022-07-26 18:49:29,867] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 18:49:29,884] {logging_mixin.py:115} INFO - [2022-07-26 18:49:29,883] {dbapi.py:330} INFO - Done loading. Loaded a total of 3 rows
+[2022-07-26 18:49:29,885] {processor.py:651} INFO - DAG(s) dict_keys(['postgres_job']) retrieved from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 18:49:29,905] {logging_mixin.py:115} INFO - [2022-07-26 18:49:29,904] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-26 18:49:29,932] {logging_mixin.py:115} INFO - [2022-07-26 18:49:29,932] {dag.py:2972} INFO - Setting next_dagrun for postgres_job to 2022-05-01T00:00:00+00:00, run_after=2022-05-01T00:01:00+00:00
+[2022-07-26 18:49:29,947] {processor.py:161} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.162 seconds
+[2022-07-26 18:50:00,099] {processor.py:153} INFO - Started process (PID=622) to work on /opt/airflow/dags/dummy_dag.py
+[2022-07-26 18:50:00,102] {processor.py:641} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2022-07-26 18:50:00,105] {logging_mixin.py:115} INFO - [2022-07-26 18:50:00,105] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 18:50:00,170] {logging_mixin.py:115} INFO - [2022-07-26 18:50:00,170] {base.py:68} INFO - Using connection ID 'postgres_terminal' for task execution.
+[2022-07-26 18:50:00,197] {logging_mixin.py:115} INFO - [2022-07-26 18:50:00,197] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 18:50:00,216] {logging_mixin.py:115} INFO - [2022-07-26 18:50:00,216] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 18:50:00,238] {logging_mixin.py:115} INFO - [2022-07-26 18:50:00,238] {dbapi.py:330} INFO - Done loading. Loaded a total of 3 rows
+[2022-07-26 18:50:00,242] {processor.py:651} INFO - DAG(s) dict_keys(['postgres_job']) retrieved from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 18:50:00,277] {logging_mixin.py:115} INFO - [2022-07-26 18:50:00,277] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-26 18:50:00,314] {logging_mixin.py:115} INFO - [2022-07-26 18:50:00,313] {dag.py:2972} INFO - Setting next_dagrun for postgres_job to 2022-05-01T00:00:00+00:00, run_after=2022-05-01T00:01:00+00:00
+[2022-07-26 18:50:00,335] {processor.py:161} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.248 seconds
+[2022-07-26 18:50:30,506] {processor.py:153} INFO - Started process (PID=638) to work on /opt/airflow/dags/dummy_dag.py
+[2022-07-26 18:50:30,508] {processor.py:641} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2022-07-26 18:50:30,510] {logging_mixin.py:115} INFO - [2022-07-26 18:50:30,510] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 18:50:30,569] {logging_mixin.py:115} INFO - [2022-07-26 18:50:30,569] {base.py:68} INFO - Using connection ID 'postgres_terminal' for task execution.
+[2022-07-26 18:50:30,592] {logging_mixin.py:115} INFO - [2022-07-26 18:50:30,592] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 18:50:30,611] {logging_mixin.py:115} INFO - [2022-07-26 18:50:30,611] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 18:50:30,631] {logging_mixin.py:115} INFO - [2022-07-26 18:50:30,631] {dbapi.py:330} INFO - Done loading. Loaded a total of 3 rows
+[2022-07-26 18:50:30,632] {processor.py:651} INFO - DAG(s) dict_keys(['postgres_job']) retrieved from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 18:50:30,653] {logging_mixin.py:115} INFO - [2022-07-26 18:50:30,653] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-26 18:50:30,686] {logging_mixin.py:115} INFO - [2022-07-26 18:50:30,686] {dag.py:2972} INFO - Setting next_dagrun for postgres_job to 2022-05-01T00:00:00+00:00, run_after=2022-05-01T00:01:00+00:00
+[2022-07-26 18:50:30,698] {processor.py:161} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.201 seconds
+[2022-07-26 18:51:00,835] {processor.py:153} INFO - Started process (PID=654) to work on /opt/airflow/dags/dummy_dag.py
+[2022-07-26 18:51:00,837] {processor.py:641} INFO - Processing file /opt/airflow/dags/dummy_dag.py for tasks to queue
+[2022-07-26 18:51:00,839] {logging_mixin.py:115} INFO - [2022-07-26 18:51:00,839] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 18:51:00,887] {logging_mixin.py:115} INFO - [2022-07-26 18:51:00,887] {base.py:68} INFO - Using connection ID 'postgres_terminal' for task execution.
+[2022-07-26 18:51:00,905] {logging_mixin.py:115} INFO - [2022-07-26 18:51:00,905] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 18:51:00,926] {logging_mixin.py:115} INFO - [2022-07-26 18:51:00,925] {base.py:68} INFO - Using connection ID 'postgres_results' for task execution.
+[2022-07-26 18:51:00,941] {logging_mixin.py:115} INFO - [2022-07-26 18:51:00,940] {dbapi.py:330} INFO - Done loading. Loaded a total of 3 rows
+[2022-07-26 18:51:00,943] {processor.py:651} INFO - DAG(s) dict_keys(['postgres_job']) retrieved from /opt/airflow/dags/dummy_dag.py
+[2022-07-26 18:51:00,962] {logging_mixin.py:115} INFO - [2022-07-26 18:51:00,962] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-26 18:51:00,990] {logging_mixin.py:115} INFO - [2022-07-26 18:51:00,990] {dag.py:2972} INFO - Setting next_dagrun for postgres_job to 2022-05-01T00:00:00+00:00, run_after=2022-05-01T00:01:00+00:00
+[2022-07-26 18:51:01,003] {processor.py:161} INFO - Processing /opt/airflow/dags/dummy_dag.py took 0.174 seconds

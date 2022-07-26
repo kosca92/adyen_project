@@ -1,0 +1,77 @@
+[2022-07-22 12:59:18,660] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: tutorial.t1 scheduled__2022-06-03T00:00:00+00:00 [queued]>
+[2022-07-22 12:59:18,785] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: tutorial.t1 scheduled__2022-06-03T00:00:00+00:00 [queued]>
+[2022-07-22 12:59:18,788] {taskinstance.py:1376} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-22 12:59:18,789] {taskinstance.py:1377} INFO - Starting attempt 1 of 2
+[2022-07-22 12:59:18,790] {taskinstance.py:1378} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-22 12:59:19,321] {taskinstance.py:1397} INFO - Executing <Task(PythonOperator): t1> on 2022-06-03 00:00:00+00:00
+[2022-07-22 12:59:19,920] {standard_task_runner.py:52} INFO - Started process 698 to run task
+[2022-07-22 12:59:19,919] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'tutorial', 't1', 'scheduled__2022-06-03T00:00:00+00:00', '--job-id', '2', '--raw', '--subdir', 'DAGS_FOLDER/nickdag.py', '--cfg-path', '/tmp/tmpmpsk0u88', '--error-file', '/tmp/tmpejv_wgoi']
+[2022-07-22 12:59:19,936] {standard_task_runner.py:80} INFO - Job 2: Subtask t1
+[2022-07-22 12:59:20,386] {logging_mixin.py:115} WARNING - /home/***/.local/lib/python3.7/site-packages/***/configuration.py:528 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2022-07-22 12:59:28,584] {task_command.py:371} INFO - Running <TaskInstance: tutorial.t1 scheduled__2022-06-03T00:00:00+00:00 [running]> on host 2f63307804d5
+[2022-07-22 12:59:31,306] {taskinstance.py:1591} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=caroline.kosalka@gmail.com
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=tutorial
+AIRFLOW_CTX_TASK_ID=t1
+AIRFLOW_CTX_EXECUTION_DATE=2022-06-03T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-06-03T00:00:00+00:00
+[2022-07-22 12:59:31,351] {python.py:173} INFO - Done. Returned value was: welcome
+[2022-07-22 12:59:32,440] {taskinstance.py:1420} INFO - Marking task as SUCCESS. dag_id=tutorial, task_id=t1, execution_date=20220603T000000, start_date=20220722T125918, end_date=20220722T125932
+[2022-07-22 12:59:34,469] {local_task_job.py:156} INFO - Task exited with return code 0
+[2022-07-22 12:59:36,465] {local_task_job.py:273} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2022-07-25 09:17:50,620] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: tutorial.t1 scheduled__2022-06-03T00:00:00+00:00 [queued]>
+[2022-07-25 09:17:50,669] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: tutorial.t1 scheduled__2022-06-03T00:00:00+00:00 [queued]>
+[2022-07-25 09:17:50,670] {taskinstance.py:1376} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-25 09:17:50,671] {taskinstance.py:1377} INFO - Starting attempt 1 of 2
+[2022-07-25 09:17:50,672] {taskinstance.py:1378} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-25 09:17:50,756] {taskinstance.py:1397} INFO - Executing <Task(PythonOperator): t1> on 2022-06-03 00:00:00+00:00
+[2022-07-25 09:17:50,796] {standard_task_runner.py:52} INFO - Started process 669 to run task
+[2022-07-25 09:17:50,839] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'tutorial', 't1', 'scheduled__2022-06-03T00:00:00+00:00', '--job-id', '2', '--raw', '--subdir', 'DAGS_FOLDER/nickdag.py', '--cfg-path', '/tmp/tmprhn9ew8i', '--error-file', '/tmp/tmpnchcsna1']
+[2022-07-25 09:17:50,849] {standard_task_runner.py:80} INFO - Job 2: Subtask t1
+[2022-07-25 09:17:50,977] {logging_mixin.py:115} WARNING - /home/***/.local/lib/python3.7/site-packages/***/configuration.py:528 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2022-07-25 09:17:51,349] {task_command.py:371} INFO - Running <TaskInstance: tutorial.t1 scheduled__2022-06-03T00:00:00+00:00 [running]> on host 01e6b1df1873
+[2022-07-25 09:17:51,961] {taskinstance.py:1591} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=caroline.kosalka@gmail.com
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=tutorial
+AIRFLOW_CTX_TASK_ID=t1
+AIRFLOW_CTX_EXECUTION_DATE=2022-06-03T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-06-03T00:00:00+00:00
+[2022-07-25 09:17:51,964] {python.py:173} INFO - Done. Returned value was: welcome
+[2022-07-25 09:17:52,351] {taskinstance.py:1420} INFO - Marking task as SUCCESS. dag_id=tutorial, task_id=t1, execution_date=20220603T000000, start_date=20220725T091750, end_date=20220725T091752
+[2022-07-25 09:17:52,449] {local_task_job.py:156} INFO - Task exited with return code 0
+[2022-07-25 09:17:52,844] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2022-07-25 12:23:50,943] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: tutorial.t1 scheduled__2022-06-03T00:00:00+00:00 [queued]>
+[2022-07-25 12:23:51,116] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: tutorial.t1 scheduled__2022-06-03T00:00:00+00:00 [queued]>
+[2022-07-25 12:23:51,122] {taskinstance.py:1376} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-25 12:23:51,123] {taskinstance.py:1377} INFO - Starting attempt 1 of 2
+[2022-07-25 12:23:51,125] {taskinstance.py:1378} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-25 12:23:51,310] {taskinstance.py:1397} INFO - Executing <Task(PythonOperator): t1> on 2022-06-03 00:00:00+00:00
+[2022-07-25 12:23:51,317] {standard_task_runner.py:52} INFO - Started process 457 to run task
+[2022-07-25 12:23:51,387] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'tutorial', 't1', 'scheduled__2022-06-03T00:00:00+00:00', '--job-id', '26', '--raw', '--subdir', 'DAGS_FOLDER/nickdag.py', '--cfg-path', '/tmp/tmp3_4k_pn6', '--error-file', '/tmp/tmptcbk79s8']
+[2022-07-25 12:23:51,404] {standard_task_runner.py:80} INFO - Job 26: Subtask t1
+[2022-07-25 12:23:51,550] {logging_mixin.py:115} WARNING - /home/***/.local/lib/python3.7/site-packages/***/configuration.py:528 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2022-07-25 12:23:51,974] {task_command.py:371} INFO - Running <TaskInstance: tutorial.t1 scheduled__2022-06-03T00:00:00+00:00 [running]> on host 929e6a3728d4
+[2022-07-25 12:23:52,992] {taskinstance.py:1591} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=caroline.kosalka@gmail.com
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=tutorial
+AIRFLOW_CTX_TASK_ID=t1
+AIRFLOW_CTX_EXECUTION_DATE=2022-06-03T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-06-03T00:00:00+00:00
+[2022-07-25 12:23:52,996] {python.py:173} INFO - Done. Returned value was: welcome
+[2022-07-25 12:23:53,823] {taskinstance.py:1420} INFO - Marking task as SUCCESS. dag_id=tutorial, task_id=t1, execution_date=20220603T000000, start_date=20220725T122350, end_date=20220725T122353
+[2022-07-25 12:23:53,945] {local_task_job.py:156} INFO - Task exited with return code 0
+[2022-07-25 12:23:54,219] {dagrun.py:1081} ERROR - Failed to get task '<TaskInstance: tutorial.get_terminal_data scheduled__2022-06-03T00:00:00+00:00 [removed]>' for dag 'tutorial'. Marking it as removed.
+[2022-07-25 12:23:54,232] {dagrun.py:1081} ERROR - Failed to get task '<TaskInstance: tutorial.process_data scheduled__2022-06-03T00:00:00+00:00 [removed]>' for dag 'tutorial'. Marking it as removed.
+[2022-07-25 12:23:54,283] {local_task_job.py:273} INFO - 1 downstream tasks scheduled from follow-on schedule check
