@@ -1,0 +1,17 @@
+﻿terminal_id;config_id;hardware;hardware_cost;currency_id;in_use
+ter_vx_123;config-32;verifone;200;EUR;TRUE
+ter_vx_134;conifg-38;TouchBistro;400;EUR;TRUE
+ter_vx_124;config-33;verifone;330;EUR;TRUE
+ter_vx_125;config-31;verifone;450;EUR;FALSE
+ter_vx_126;config-31;verifone;100;EUR;FALSE
+ter_vx_127;config-33;verifone;200;EUR;TRUE
+ter_vx_128;config-32;Shopify;400;EUR;TRUE
+ter_vx_129;config-35;Shopify;130;EUR;FALSE
+ter_vx_130;config-32;TouchBistro;150;EUR;TRUE
+ter_vx_131;config-33;TouchBistro;500;EUR;TRUE
+ter_vx_132;config-35;TouchBistro;200;EUR;FALSE
+ter_vx_133;config-36;Shopify;140;USD;FALSE
+ter_vx_134;conifg-38;TouchBistro;400;USD;TRUE
+ter_vx_129;config-35;Shopify;130;EUR;FALSE
+ter_vx_129;config-35;Shopify;130;EUR;FALSE
+ter_vx_131;config-33;TouchBistro;500;EUR;TRUE

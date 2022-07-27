@@ -3,5 +3,6 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/docker-postgresql-multiple-databases" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/java-notebook" vcs="Git" />
   </component>
 </project>

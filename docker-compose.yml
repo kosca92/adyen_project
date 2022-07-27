@@ -1,8 +1,8 @@
 version: '3.8'
 services:
-    notebook:
+    java-notebook:
         build:
-            context: ./jupyter-notebook-docker
+            context: ./java-notebook
         ports:
             - "8888:8888"
     postgres:
@@ -16,6 +16,7 @@ services:
             - "5432:5432"
         volumes:
             - ./init.sql:/docker-entrypoint-initdb.d/init.sql
+            - ./Data_folder/terminal.csv:/Data_folder/terminal.csv
     cronjob:
         build: cronjob
         depends_on:

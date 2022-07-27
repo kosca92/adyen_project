@@ -13,6 +13,22 @@ GRANT ALL PRIVILEGES ON DATABASE results_db TO final_user;
 
 -- first table
 \c terminal_db
+
+create table terminal
+(
+    terminal_id VARCHAR(255),
+    config_id VARCHAR(255),
+    hardware VARCHAR(255),
+    hardware_cost INTEGER,
+    currency_id VARCHAR(255),
+    in_use BOOLEAN
+);
+
+COPY terminal(terminal_id, config_id, hardware, hardware_cost,currency_id,in_use)
+FROM '/Data_folder/terminal.csv'
+DELIMITER ';'
+CSV HEADER;
+
 create table transactions
 (
     user_id int not null,
@@ -51,6 +67,10 @@ TO terminal_user;
 
 GRANT ALL
 ON balance
+TO terminal_user;
+
+GRANT ALL
+ON terminal
 TO terminal_user;
 
 \c results_db
